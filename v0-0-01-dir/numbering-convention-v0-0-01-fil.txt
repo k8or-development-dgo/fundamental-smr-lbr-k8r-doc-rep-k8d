@@ -1,0 +1,165 @@
+1. Document metadata: 
+
+    1.1. Title: Explaining the numbering convention in Sambar and LeBar
+    1.2. Description: This document explains the numbering convention in the Sambar and LeBar web applications.
+    1.3. Identification: duhith-s0-0-01-app-doc-000010
+    1.4. Version: v0-0-01
+    1.5. Format: txt
+    1.6. Subject metadata:
+        1.6.1. Alias: duhith
+        1.6.2. Name: numbering-convention
+        1.6.3. FQID: none
+        1.6.4. Version: s0-0-01
+        1.6.5. Action: 000010
+    1.7. hGraph Metadata:
+        1.7.1. Alias: none
+        1.7.2. Name: none
+        1.7.3. FQID: none
+        1.7.4. Version: none
+    1.8. Revision: This is the first version uploaded to the ChatBOT.
+    1.9. Author: Anna/Barb.Rock
+    1.10. Date: July 12, 2024
+    1.11. Type: specific-smr-lbr
+
+2. Subject Introduction:
+
+	Numbering convention for flows and blocks
+		Flow - is a sequence of operations and processes that data and requests go through to achieve a specific functionality or feature of the website application. Examples of flows in a website's backend: User Registration Flow, User Login Flow.
+		The numbering convention for a Flow:
+		Each flow is assigned a unique one- or three-digit code, signifying a specific function within the web application. Here's the list of flows employed within the LeBar web application:
+		- Flow 024 - DynamoDb tables
+		- Flow 028 - MySQL databases
+		- Flow 032 - S3 Buckets
+		- Flow 036 - Cognito
+		- Flow 1 - Site Static Page
+		- Flow 2 - User Registration
+		- Flow 3 - User Login
+		- Flow 4 - My Profile
+		- Flow 5 - Subscription Handle
+		- Flow 6 - Purchase
+		- Flow 7 - Cent to Lebar
+		- Flow 8 - Edit Profile
+		- Flow 9 - Transfer
+		- Flow 10 - Withdrawal
+		- Flow 11 - Add Moved Credits
+	Block - is a unit within a Flow, consisting of multiple legs, each designed to execute distinct and specific functions. These individual legs work together synergistically to achieve the overall purpose of the block. 
+	Each flow starts with a block number "3," signifying it as the initial block within the flow. Subsequent blocks increment by a multiple of 3, starting with "6" for the second block, "9" for the third, "12" for the fourth, "15" for the fifth, and so forth. This pattern allows for two reserved numbers between each block. These reserved numbers are strategically included in the numbering convention to accommodate potential future additions of new functionality or blocks, ensuring that there are available numbers for seamless expansion if needed.
+	The numbering convention for a Flow is explained on the following examples.
+	Example 1. Block number: f2b12
+		 - "f2" - means flow 2, "f" is a shortening for a flow.
+		 - "b12" - meams that it is block number 12 in flow 2. "b" is a shortening for Block.
+	Example 2. Block number: f024b3
+		- "f024" - means flow 024, "f" is a shortening for a flow.
+		 - "b3" - meams that it is block number 3 in flow 024. "b" is a shortening for Block.
+	Here is the list of Blocks in each flow:
+	- Flow 024
+	Flow 024 is exclusively assigned to DynamoDB tables. In the current setup of the LeBar web application, all Sister DynamoDB tables are associated with Flow 024. This flow comprises the following blocks:
+		1. Block f024b3 - user-session-02403-ld DynamoDB table
+		2. Block f024b6 - user-sms-notification-02406-ld DynamoDB table
+		3. Block f024b9 - user-event-log-02409-ld DynamoDB table
+		4. Block f024b12 - purchase-log-02412-ld DynamoDB table
+		5. Block f024b15 - cent-to-lebar-conversion-log-02415-ld DynamoDB table
+		6. Block f024b18 - transfer-log-02418-ld DynamoDB table
+		7. Block f024b21 - withdrawal-log-02421-ld DynamoDB table
+		8. Block f024b24 - moved-log-02424-ld DynamoDB table
+		9. Block f024b27 - lebar-limit-02427-ld DynamoDB table
+	- Flow 028
+		Flow 028 is exclusively assigned to AWS RDS (MySQL) databases. In the current setup of the LeBar web application, all Sister AWS RDS (MySQL) databases are associated with Flow 028. This flow comprises the following blocks:
+			1. Block f028b3 - user-wordpress-02803-ld MySQL database
+			2. Block f028b24 - user-account-number-02824-ld MySQL database
+			3. Block f028b27 - user-invitation-code-02827-ld MySQL database
+			4. Block f028b39 - user-lebar-banking-info-02839-ld MySQL database
+			5. Block f028b42 - qldb-replica-02842-ld MySQL database
+			6. Block f028b45 - lebar-purchase-confirmation-code-02845-ld MySQL database
+	- Flow 032
+		Flow 032 is exclusively assigned to AWS S3 Bucket. In the current setup of the LeBar web application, all Sister AWS S3 Bucket are associated with Flow 032. This flow comprises the following blocks:
+			1. Block f032b3 - user-registration-image-03203-ld S3 Bucket
+			2. Block f032b6 - user-payload-registration-detail-03206-ld S3 Bucket
+		    3. Block f032b9 - sms-log-ld S3 Bucket
+	- Flow 036
+		Flow 036 is exclusively assigned to AWS Cognito user-pool. In the current setup of the LeBar web application, all Sister AWS Cognito user-pool are associated with Flow 036. This flow comprises the following block:
+			1. Block f036b3 - user-pool-03603-ld Cognito user-pool
+	- Flow 1 Blocks:
+		1. f1b3
+	- Flow 2 Blocks:
+		1. f2b3
+		2. f2b6
+		3. f2b9
+		4. f2b12
+		5. f2b15
+	- Flow 3 Blocks:
+		1. f3b3
+		2. f3b6
+		3. f3b9
+		4. f3b12
+		5. f3b18
+	- Flow 4 Blocks:
+		1. f4b3
+		2. f4b6
+		3. f4b9
+		4. f4b12
+	- Flow 5 Blocks:
+		1. f5b3
+		2. f5b6
+		3. f5b9
+		4. f5b12
+	- Flow 3 Blocks:
+		1. f6b6
+		2. f6b9
+		3. f6b12
+		4. f6b15
+		5. f6b18
+		6. f6b21
+		7. f6b24
+		8. f6b27
+		9. f6b30
+	- Flow 7 Blocks:
+		1. f7b3
+		2. f7b6
+		3. f7b9
+		4. f7b12
+		5. f7b15
+	- Flow 8 Blocks:
+		1. f8b3
+		2. f8b6
+		3. f8b9
+		4. f8b12
+		5. f8b15
+		6. f8b18
+	- Flow 9 Blocks:
+		1. f9b3
+		2. f9b6
+		3. f9b9
+		4. f9b12
+		5. f9b15
+	- Flow 10 Blocks:
+		1. f10b3
+		2. f10b6
+		3. f10b7
+		4. f10b9
+		5. f10b12
+	- Flow 11 Blocks:
+		1. f11b3
+		2. f11b6
+		3. f11b7
+		4. f11b9
+		5. f11b12
+		6. f11b15
+	Numbering convention for Resource IDs.
+		Each resource in the LeBar web application has a Fully Qualified ID. A Fully Qualified ID (FQID) is a unique identifier that provides particular information about a specific resource or entity within a system or application. It typically includes various components that help identify the resource, such as its flow number, block number, leg number and one letter classifier that shows location of the resource within a leg. FQIDs are used to uniquely identify resources, making it easy to reference and manage them.
+	The numbering convention for a Fully Qualified Resource ID is illustrated in the following example:
+		Resource ID: 2.3.8.f
+		- "2" - The first digit designates the flow number, which is Flow 2 in this example.
+		- "3" - The second digit designates the block number, signifying Block 3 in this example.
+		- "8" - The third digit designates the leg number, which is Leg 8 in this example.
+		- "f" - is a unique one-letter classifier for resources, and it is positioned at the end of a resource ID. Its assignment is determined by the resource's specific location within a leg.
+		Numbering convention for Legs.
+		Leg - is a set of resources that are combined to perform one particular function on the site. Leg usually consists of MSV, ER and Middle resources.
+		Leg number consists of flow number, block number and leg order nuumber within the block.
+		The numbering convention for a Leg is illustrated in the following example:
+		Leg number: F2B3L4
+		- "F2" - means flow 2, "F" is a shortening for a Flow.
+		- "B3" - means block 3, "B" is a shortening for a Block.
+		- "L4" - means leg 4, "L" is a shortening for a Leg.
+		Each Block has different number of Legs. First leg in a Block always starts with number 4. 
+		signifying it as the initial leg within the block. Subsequent legs increment by a multiple of 4, starting with "8" for the second block, "12" for the third, "16" for the fourth, "20" for the fifth, and so forth. This pattern allows for three reserved numbers between each leg. These reserved numbers are strategically included in the numbering convention to accommodate potential future additions of new functionality within the block, ensuring that there are available numbers for seamless expansion if needed.
