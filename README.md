@@ -3,11 +3,11 @@
 ## Content
 
 1. **[Repository Purpose](#Repository-Purpose)**
-1. **[Repository Name Breakdown](#Repository-Name-Breakdown)**
-1. **[Directory Explanation](#Directory-Explanation)**
-1. **[Study Order for Sambar/LeBar/k8or Documentation](#Study-Order-for-Sambar-LeBar-k8or-Documentation)**
-1. **[Repository Purpose](#Repository-Purpose)**
-1. **[Repository Purpose](#Repository-Purpose)**
+2. **[Repository Name Breakdown](#Repository-Name-Breakdown)**
+3. **[Directory Explanation](#Directory-Explanation)**
+4. **[Study Order for Sambar/LeBar/k8or Documentation](#Study-Order-for-Sambar-LeBar-k8or-Documentation)**
+5. **[Repository Purpose](#Repository-Purpose)**
+6. **[Repository Purpose](#Repository-Purpose)**
 
 <h1 id="Repository-Purpose">Repository Purpose</h1>
 
