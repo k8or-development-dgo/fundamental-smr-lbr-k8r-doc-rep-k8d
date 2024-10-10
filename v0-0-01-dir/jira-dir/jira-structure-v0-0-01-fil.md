@@ -14,7 +14,7 @@ This document outlines the essential procedures for new team members joining the
     1. Track your time on the JIRA ticket using Toggl Desktop application.
     2. Paste the following text into the Toggl description box:  
        ```
-       [Your Ticket ID] - [Your Ticket Title]
+       [Your Ticket ID] [Your Ticket Title]
        ```
     3. Stop the Toggl timer whenever you are not actively working on the ticket.
 
