@@ -8,7 +8,8 @@ This document outlines the essential procedures for new team members joining the
 2. **[Time Tracking with Toggl](#Time-Tracking-with-Toggl)**
 3. **[JIRA Ticket Status Management](#JIRA-Ticket-Status-Management)**
 4. **[JIRA Ticket Commenting](#JIRA-Ticket-Commenting)**
-5. **[Document Metadata](#Document-Metadata)**
+5. **[JIRA Sprint](#JIRA-Sprint)**
+6. **[Document Metadata](#Document-Metadata)**
 
 <h1 id="Obtaining-a-JIRA-Ticket">Obtaining a JIRA Ticket</h1>
 
@@ -44,6 +45,41 @@ This document outlines the essential procedures for new team members joining the
    ```
    End: 17:30 IST, October 10, 2024
    ```
+
+<h1 id="k8or-JIRA-Sprint-Naming-Convention">k8or JIRA Sprint Naming Convention</h1>
+
+**Purpose:** The k8or JIRA sprint naming convention is designed to provide a clear and concise identifier for each sprint, making it easy to track and manage project progress.
+
+**Structure:**
+
+A k8or JIRA sprint name follows the following format:
+
+```
+w[week_number]-y[year]-k8d: [sprint_name]
+```
+
+**Components:**
+
+1. **`w[week_number]`:** This represents the week number within the current year. For example, `w41` indicates the 41st week of the year.
+2. **`y[year]`:** This indicates the year in which the sprint is taking place. For example, `y24` denotes the year 2024.
+3. **`k8d`:** This is a unique identifier for the k8or development environment.
+4. **`:`:** A colon separates the numerical components from the sprint name.
+5. **`[sprint_name]`:** This is a user-friendly, memorable name given to the sprint. It should be descriptive and relevant to the sprint's goals or focus.
+
+**Example:**
+
+`w41-y24-k8d: brave-spirit`
+
+* **`w41`:** Week 41 of the year
+* **`y24`:** Year 2024
+* **`k8d`:** k8or development project
+* **`brave-spirit`:** User-friendly sprint name
+
+**Key Points:**
+
+* The components in the sprint name are separated by hyphens and a colon with a space after the colon.
+* The sprint name should be unique and easily recognizable.
+* Adhering to this naming convention ensures consistent and informative sprint identification within the k8or project.
 
 ---
 
