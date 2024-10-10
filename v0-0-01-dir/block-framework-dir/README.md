@@ -111,7 +111,7 @@ These flows represent core functionalities within the k8or web application.
 
 <h1 id="BLOCKs-The-Workhorse-Components">BLOCKs: The Workhorse Components</h1>
 
-![Alt text](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/blob/k8or-dev/v0-0-01-dir/block-framework-dir/diagram-dir/f2b3-user-registration-sd2-v.0.1.26.pdf)
+![PDF File](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/blob/k8or-dev/v0-0-01-dir/block-framework-dir/diagram-dir/f2b3-user-registration-sd2-v.0.1.26.pdf)
 
 Within each Flow lie BLOCKs, the fundamental building blocks of the framework. These are interconnected components, each responsible for a specific task within the Flow. Consider a User Registration Flow – it might contain a BLOCK dedicated to collecting user data, another for validating it, and yet another for storing it securely. Each BLOCK focuses on a single step in the larger process, promoting modularity and clarity within the codebase.
 
