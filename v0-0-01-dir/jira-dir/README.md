@@ -7,8 +7,8 @@ This document outlines the essential procedures for new team members joining the
 1. **[Obtaining a JIRA Ticket](#Obtaining-a-JIRA-Ticket)**
 2. **[Time Tracking with Toggl](#Time-Tracking-with-Toggl)**
 3. **[JIRA Ticket Status Management](#JIRA-Ticket-Status-Management)**
-3. **[JIRA Ticket Commenting](#JIRA-Ticket-Commenting)**
-4. **[Document Metadata](#Document-Metadata)**
+4. **[JIRA Ticket Commenting](#JIRA-Ticket-Commenting)**
+5. **[Document Metadata](#Document-Metadata)**
 
 <h1 id="Obtaining-a-JIRA-Ticket">Obtaining a JIRA Ticket</h1>
 
@@ -23,6 +23,9 @@ This document outlines the essential procedures for new team members joining the
     2. Paste the following text into the Toggl description box:  
        ```
        [Your Ticket ID] [Your Ticket Title]
+       ``` 
+       ```
+       K8RT-1 Sambar/LeBar/k8or Architecture and Kubernetes Fundamentals
        ```
     3. Stop the Toggl timer whenever you are not actively working on the ticket.
 
@@ -37,13 +40,7 @@ This document outlines the essential procedures for new team members joining the
    ```
    Start: 10:30 IST, October 10, 2024
    ```
-   ```
-   Start: 17:30 IST, October 10, 2024
-   ```
 * **End Comment:** When you finish working on a ticket, leave a final comment with the end date and time in the following format:
-   ```
-   End: 10:30 IST, October 10, 2024
-   ```
    ```
    End: 17:30 IST, October 10, 2024
    ```
