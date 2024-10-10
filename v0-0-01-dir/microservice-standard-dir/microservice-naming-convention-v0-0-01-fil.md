@@ -1,4 +1,4 @@
-### Sambar/LeBar/k8or Microservice Naming Convention
+# Sambar/LeBar/k8or Microservice Naming Convention
 
 This document outlines the microservice naming convention used within the Sambar/LeBar/k8or web application. It provides a detailed explanation of each segment within the microservice name and its significance in identifying the microservice's purpose, context, and deployment environment.
 
