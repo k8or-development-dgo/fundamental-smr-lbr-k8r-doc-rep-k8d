@@ -4,12 +4,12 @@ This document outlines the microservice naming convention used within the Sambar
 
 ## Content
 
-1. **[](#)**
-1. **[](#)**
-1. **[](#)**
-1. **[](#)**
-1. **[](#)**
-1. **[](#)**
+1. **[Introduction](#Introduction)**
+1. **[Breakdown of Segments](#Breakdown-of-Segments)**
+1. **[Purpose of the Naming Convention](#Purpose-of-the-Naming-Convention)**
+1. **[Order of Segments in Microservice Naming Convention](#Order-of-Segments-in-Microservice-Naming-Convention)**
+1. **[Importance of the Order](#Importance-of-the-Order)**
+1. **[Important Note](#Important-Note)**
 7. **[Document Metadata](#Document-Metadata)**
 
 <h1 id="Introduction">Introduction</h1>
@@ -75,3 +75,27 @@ The environment ID for the Sambar/LeBar/k8or web applications must be a two- or 
 - `t`: testing	
 - `p`: production
 - `s`: staging
+
+---
+
+<h2 id="Document-Metadata-Naming-Convention">Document Metadata</h2>
+
+| Metadata Type | Key | Value |
+|---|---|---|
+| Document Metadata | Title | Definition of a Communication Chain (Chain) and its ID Structure |
+| | Description | This document provides a comprehensive explanation of Communication Chains (Chains) and their corresponding Chain IDs within the Sambar/LeBar/k8or web applications. It outlines the structure and significance of Chain IDs, their role in data flow tracking, and their integration with Payload Structure Numbers (PSNs) and Payload Resource Numbers (PRNs). |
+| | Identification | TBD | |
+| | Version | v0-0-01 | |
+| | Format | md | |
+| | Revision | This is the first version uploaded to the ChatBOT. |
+| | Author | Anna/Barb.Rock |
+| | Date | October 10, 2024 |
+| Subject Metadata | Alias | TBD |
+| |  Name | TBD |
+| |  FQID | TBD |
+| |  Version | s0-0-01 |
+| |  Action | 000010 |
+| hGraph Metadata | Alias | none |
+| |  Name | none |
+| |  FQID | none |
+| |  Version | none |

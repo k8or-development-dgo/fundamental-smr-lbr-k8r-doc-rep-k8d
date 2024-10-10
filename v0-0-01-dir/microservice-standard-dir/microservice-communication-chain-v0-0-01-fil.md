@@ -50,8 +50,8 @@ Within the **Sambar/LeBar/k8or web applications**, a **Communication Chain (Chai
 
 | Metadata Type | Key | Value |
 |---|---|---|
-| Document Metadata | Title | Definition of a Communication Chain (Chain) and its ID Structure |
-| | Description | This document provides a comprehensive explanation of Communication Chains (Chains) and their corresponding Chain IDs within the Sambar/LeBar/k8or web applications. It outlines the structure and significance of Chain IDs, their role in data flow tracking, and their integration with Payload Structure Numbers (PSNs) and Payload Resource Numbers (PRNs). |
+| Document Metadata | Title | Sambar/LeBar/k8or Microservice Naming Convention |
+| | Description | This document outlines the microservice naming convention used within the Sambar/LeBar/k8or web application. It provides a detailed explanation of each segment within the microservice name and its significance in identifying the microservice's purpose, context, and deployment environment. |
 | | Identification | TBD | |
 | | Version | v0-0-01 | |
 | | Format | md | |
