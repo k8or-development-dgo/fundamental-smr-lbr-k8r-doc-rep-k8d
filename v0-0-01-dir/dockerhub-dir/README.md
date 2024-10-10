@@ -4,7 +4,7 @@ This document delineates the structure and rationale behind the DockerHub organi
 
 ## Content
 
-1. **[Purpose of GitHub Organizations](#Purpose-of-GitHub-Organizations)**
+1. **[Purpose of DockerHub Organizations](#Purpose-of-DockerHub-Organizations)**
 2. **[Organization Structure](#Organization-Structure)**
 3. **[Environment Isolation](#Environment-Isolation)**
 4. **[Naming Convention](#Naming-Convention)**
