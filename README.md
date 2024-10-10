@@ -28,7 +28,7 @@ The `fundamental-smr-lbr-k8r-doc-rep-k8d` repository houses foundational documen
 
 The term `dir` is an internal classifier used to denote a directory.
 
-**`v0-0-01-dir` Directory**
+### `v0-0-01-dir` Directory
 
 The `v0-0-01-dir` directory houses documentation and artifacts related to the initial version `v0-0-01` release of the Sambar, Lebar, and k8or web applications.
 
