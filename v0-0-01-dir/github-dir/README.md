@@ -9,7 +9,8 @@ This document outlines the structure and purpose of GitHub organizations within 
 3. **[Environment Isolation](#Environment-Isolation)**
 4. **[Cloud Provider Separation](#Cloud-Provider-Separation)**
 5. **[Repository Structure and Naming Conventions within Sambar/LeBar/k8or](#Repository-Structure-and-Naming-Conventions-within-Sambar-LeBar-k8or)**
-6. **[Document Metadata](#Document-Metadata)**
+6. **[Private Repository Configuration](#Private-Repository-Configuration)**
+7. **[Document Metadata](#Document-Metadata)**
 
 <h1 id="Purpose-of-GitHub-Organizations">Purpose of GitHub Organizations</h1>
 
@@ -75,6 +76,11 @@ flow-[flow_number]-[repository_type]-rep-sd2-dgo
 * **`rep`:** Classifier indicating a repository.
 * **`sd2`:** Indicates the operational environment. `sd2` signifies the Sambar web application development environment. The suffix `2` was added to differentiate this environment from the original development environment `sd` after it was migrated to a different AWS region and account. This distinction helps prevent resource conflicts and confusion across regions.
 * **`dgo`:** Represents DigitalOcean as the cloud provider.
+
+
+<h1 id="Private-Repository-Configuration">Private Repository Configuration</h1>
+
+All GitHub organizations within the Sambar/LeBar/k8or ecosystem should be configured as private to safeguard the confidentiality and security of the codebase and related resources. This prevents unauthorized access to repositories and protects intellectual property.
 
 ---
 
