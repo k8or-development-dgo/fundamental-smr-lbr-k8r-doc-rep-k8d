@@ -17,7 +17,7 @@ The `fundamental-smr-lbr-k8r-doc-rep-k8d` repository houses foundational documen
 
 **Directory Descriptions:**
 
-* The term `dir` is an internal classifier used to denote a directory.
+The term `dir` is an internal classifier used to denote a directory.
 
 1. **block-architecture-dir:** Contains documentation related to the high-level design and structure of the Sambar, Lebar, and k8or web applications.
 2. **classifier-dir:** Houses internal classification schemes and terminologies used within the Sambar, Lebar, and k8or web applications.
