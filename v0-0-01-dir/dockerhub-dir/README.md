@@ -8,7 +8,8 @@ This document delineates the structure and rationale behind the DockerHub organi
 2. **[Organization Structure](#Organization-Structure)**
 3. **[Environment Isolation](#Environment-Isolation)**
 4. **[Naming Convention](#Naming-Convention)**
-5. **[Document Metadata](#Document-Metadata)**
+5. **[DockerHub Organization Privacy and Image Pulls](#DockerHub-Organization-Privacy-and-Image-Pulls)**
+6. **[Document Metadata](#Document-Metadata)**
 
 <h1 id="Purpose-of-DockerHub-Organizations">Purpose of DockerHub Organizations</h1>
 
@@ -18,9 +19,9 @@ Within the Sambar/LeBar/k8or ecosystem, DockerHub organizations are employed to 
 
 1. **Sambar:**
    * `sambardev`: Dedicated to housing Docker images of Sambar development microservices, regardless of the underlying cloud provider.
-2. **Lebar:**
+2. **LeBar:**
    * `lebardev`: Designed to store Docker images of LeBar development microservices, irrespective of the cloud provider.
-3. **K8or:**
+3. **k8or:**
    * `k8ordev`: Houses Docker images of k8or development microservices, adaptable to various cloud environments.
 
 <h1 id="Environment-Isolation">Environment Isolation</h1>
@@ -36,6 +37,20 @@ The naming convention for these organizations follows a consistent pattern:
   * `dev`: Three-letter code indicates the development environment.
 
 For example, `sambardev` signifies the DockerHub organization for storing Sambar development microservice images.
+
+<h1 id="DockerHub-Organization-Privacy-and-Image-Pulls">DockerHub Organization Privacy and Image Pulls</h1>
+
+**Private DockerHub Organizations**
+
+All Sambar/LeBar/k8or DockerHub organizations should be configured as private to ensure the security and confidentiality of the stored microservice images. This prevents unauthorized access to the images and protects intellectual property.
+
+**Kubernetes Secret for Image Pulls**
+
+To pull microservice images from private DockerHub organizations within a Kubernetes cluster, a Kubernetes secret is utilized. This secret contains the necessary credentials, such as the DockerHub `username`, `email` and `password` (`access token`), required to authenticate with the private repository and authorize image pulls.
+
+**Pull Permissions**
+
+The Kubernetes secret must be configured with specific permissions to grant access to the desired DockerHub repository. These permissions include the ability to pull images from the specified repository.
 
 ---
 
