@@ -26,7 +26,7 @@ Imagine a Flow as the core of a specific functionality within the Sambar/LeBar/k
 
 These flows represent core functionalities within the Sambar web application.
 
-* **Flow-1** `Site Static Page`
+* **Flow-1** `Site Static Page` hosted on [sambar.one](https://www.sambar.one)
 * **Flow-2** `User Registration`
 * **Flow-3** `User Login`
 * **Flow-4** `User Profile`
@@ -70,7 +70,7 @@ These flows integrate functionalities between Sambar and LeBar's backend.
 
 These flows represent core functionalities within the LeBar web application.
 
-* **Flow-1** `Site Static Page`
+* **Flow-1** `Site Static Page` hosted on [lebar.digital](https://www.lebar.digital)
 * **Flow-2** `User Registration`
 * **Flow-3** `User Login`
 * **Flow-4** `User Profile`
@@ -99,15 +99,15 @@ These flows integrate functionalities within the LeBar application.
 
 These flows represent core functionalities within the k8or web application.
 
-* **Flow-1** `Site Static Page`
+* **Flow-1** `Site Static Page` hosted on [k8or.com](https://www.k8or.com)
 * **Flow-41** `ChatBOT`
 * **Flow-42** `jGraph` (`JSON Crack`)
 * **Flow-43** `KSecret` (`PrivateBin`)
 * **Flow-44** `Everest` (`Mattermost`)
 * **Flow-45** `Autodo` (`n8n`)
 * **Flow-46** `Portainer`
-* **Flow-61** `empower99.win`
-* **Flow-62** `rajmarni.com`
+* **Flow-61** `empower99.win` hosted on [empower99.win](https://www.empower99.win)
+* **Flow-62** `rajmarni.com` hosted on [rajmarni.com](https://www.rajmarni.com)
 
 <h1 id="BLOCKs-The-Workhorse-Components">BLOCKs: The Workhorse Components</h1>
 
