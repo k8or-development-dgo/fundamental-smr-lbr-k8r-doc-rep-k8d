@@ -46,7 +46,7 @@ Within the **Sambar/LeBar/k8or web applications**, a **Communication Chain (Chai
 
 ---
 
-<h2 id="Document-Metadata-Naming-Convention">Document Metadata</h2>
+<h2 id="Document-Metadata">Document Metadata</h2>
 
 | Metadata Type | Key | Value |
 |---|---|---|

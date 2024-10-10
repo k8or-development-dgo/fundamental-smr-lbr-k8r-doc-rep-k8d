@@ -1,4 +1,4 @@
-## Microservice Event ID Numbering Convention within the Sambar/LeBar/k8or Web Applications
+# Microservice Event ID Numbering Convention within the Sambar/LeBar/k8or Web Applications
 
 This document outlines the structure and purpose of Event IDs within the Sambar/LeBar/k8or web applications. It provides a detailed explanation of each segment within the Event ID and its significance in identifying the source, context, and sequence of events.
 
@@ -101,7 +101,7 @@ The specific order of segments in the Event ID `ub02130m03f04e05post` is critica
 
 ---
 
-<h2 id="Document-Metadata-Naming-Convention">Document Metadata</h2>
+<h2 id="Document-Metadata">Document Metadata</h2>
 
 | Metadata Type | Key | Value |
 |---|---|---|

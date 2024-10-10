@@ -5,11 +5,11 @@ This document outlines the microservice naming convention used within the Sambar
 ## Content
 
 1. **[Introduction](#Introduction)**
-1. **[Breakdown of Segments](#Breakdown-of-Segments)**
-1. **[Purpose of the Naming Convention](#Purpose-of-the-Naming-Convention)**
-1. **[Order of Segments in Microservice Naming Convention](#Order-of-Segments-in-Microservice-Naming-Convention)**
-1. **[Importance of the Order](#Importance-of-the-Order)**
-1. **[Important Note](#Important-Note)**
+2. **[Breakdown of Segments](#Breakdown-of-Segments)**
+3. **[Purpose of the Naming Convention](#Purpose-of-the-Naming-Convention)**
+4. **[Order of Segments in Microservice Naming Convention](#Order-of-Segments-in-Microservice-Naming-Convention)**
+5. **[Importance of the Order](#Importance-of-the-Order)**
+6. **[Important Note](#Important-Note)**
 7. **[Document Metadata](#Document-Metadata)**
 
 <h1 id="Introduction">Introduction</h1>
@@ -78,7 +78,7 @@ The environment ID for the Sambar/LeBar/k8or web applications must be a two- or 
 
 ---
 
-<h2 id="Document-Metadata-Naming-Convention">Document Metadata</h2>
+<h2 id="Document-Metadata">Document Metadata</h2>
 
 | Metadata Type | Key | Value |
 |---|---|---|

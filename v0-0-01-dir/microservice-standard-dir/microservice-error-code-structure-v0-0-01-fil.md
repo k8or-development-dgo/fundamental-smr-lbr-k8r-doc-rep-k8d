@@ -67,7 +67,7 @@ The specific order of segments in the microservice error code `ub02130-cls003fun
 
 ---
 
-<h2 id="Document-Metadata-Naming-Convention">Document Metadata</h2>
+<h2 id="Document-Metadata">Document Metadata</h2>
 
 | Metadata Type | Key | Value |
 |---|---|---|

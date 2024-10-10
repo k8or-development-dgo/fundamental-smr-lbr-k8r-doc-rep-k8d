@@ -183,7 +183,7 @@ A **prefix** is a character or group of characters placed at the beginning of a 
 
 ---
 
-<h2 id="Document-Metadata-Naming-Convention">Document Metadata</h2>
+<h2 id="Document-Metadata">Document Metadata</h2>
 
 | Metadata Type | Key | Value |
 |---|---|---|
