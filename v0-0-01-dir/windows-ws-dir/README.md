@@ -1,11 +1,14 @@
 ## k8or Windows-WS Security and Management
 
+This document outlines the security measures, automated management processes, and connection procedures for the k8or Windows-WS instances.
+
 ## Content
 
 1. **[Security Measures](#Security-Measures)**
 2. **[Automated Workspace Management](#Automated-Workspace-Management)**
 3. **[IP Address Restrictions](#IP-Address-Restrictions)**
 4. **[Connecting to a k8or Windows-WS](#Connecting-to-a-k8or-Windows-WS)**
+5. **[Document Metadata](#Document-Metadata)**
 
 <h1 id="Security-Measures">Security Measures</h1>
 
@@ -70,3 +73,27 @@
 
 **9. Successful Login:**
    * Once the connection is established, you will be logged in to the k8or Windows-WS.
+
+---
+
+<h2 id="Document-Metadata">Document Metadata</h2>
+
+| Metadata Type | Key | Value |
+|---|---|---|
+| Document Metadata | Title | k8or Windows-WS Security and Management |
+| | Description | This document outlines the security measures, automated management processes, and connection procedures for the k8or Windows-WS instances. |
+| | Identification | TBD | |
+| | Version | v0-0-01 | |
+| | Format | md | |
+| | Revision | This is the first version uploaded to the ChatBOT. |
+| | Author | Anna/Barb.Rock |
+| | Date | October 10, 2024 |
+| Subject Metadata | Alias | TBD |
+| |  Name | TBD |
+| |  FQID | TBD |
+| |  Version | s0-0-01 |
+| |  Action | 000010 |
+| hGraph Metadata | Alias | none |
+| |  Name | none |
+| |  FQID | none |
+| |  Version | none |

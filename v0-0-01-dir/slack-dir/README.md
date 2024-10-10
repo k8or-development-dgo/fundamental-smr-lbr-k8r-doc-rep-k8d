@@ -1,5 +1,7 @@
 ## k8or Team Communication Guidelines
 
+This document establishes communication protocols for the k8or team, primarily using Slack channels.
+
 ## Content
 
 1. **[Introduction](#Introduction)**
@@ -11,6 +13,7 @@
     * **`sambar-lebar` Channel**
     * **`team-channel` Channel**
     * **Direct Messages**
+4. **[Document Metadata](#Document-Metadata)**
 
 <h1 id="Introduction">Introduction</h1>
 
@@ -57,3 +60,27 @@ While `Everest` is currently not operational, its implementation is planned for 
 
 **6. Direct Messages:**
    * Utilize direct messages for private communication with individual team members.
+
+---
+
+<h2 id="Document-Metadata">Document Metadata</h2>
+
+| Metadata Type | Key | Value |
+|---|---|---|
+| Document Metadata | Title | k8or Team Communication Guidelines |
+| | Description | This document establishes communication protocols for the k8or team, primarily using Slack channels. |
+| | Identification | TBD | |
+| | Version | v0-0-01 | |
+| | Format | md | |
+| | Revision | This is the first version uploaded to the ChatBOT. |
+| | Author | Anna/Barb.Rock |
+| | Date | October 10, 2024 |
+| Subject Metadata | Alias | TBD |
+| |  Name | TBD |
+| |  FQID | TBD |
+| |  Version | s0-0-01 |
+| |  Action | 000010 |
+| hGraph Metadata | Alias | none |
+| |  Name | none |
+| |  FQID | none |
+| |  Version | none |

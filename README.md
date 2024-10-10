@@ -1,13 +1,14 @@
 ## `fundamental-smr-lbr-k8r-doc-rep-k8d` Repository Structure
 
+This document serves as a guide to the structure and organization of the fundamental-smr-lbr-k8r-doc-rep-k8d repository. It provides insights into the contents, intended audience, and recommended study order for developers working within the Sambar, Lebar, and k8or web applications.
+
 ## Content
 
 1. **[Repository Purpose](#Repository-Purpose)**
 2. **[Repository Name Breakdown](#Repository-Name-Breakdown)**
 3. **[Directory Explanation](#Directory-Explanation)**
 4. **[Study Order for Sambar/LeBar/k8or Documentation](#Study-Order-for-Sambar-LeBar-k8or-Documentation)**
-5. **[Repository Purpose](#Repository-Purpose)**
-6. **[Repository Purpose](#Repository-Purpose)**
+5. **[Document Metadata](#Document-Metadata)**
 
 <h1 id="Repository-Purpose">Repository Purpose</h1>
 
@@ -61,3 +62,27 @@ The term `dir` is an internal classifier used to denote a directory.
    * **[Vocabulary](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/vocabulary-dir)** Guide
    * **[Microservice Standards](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/microservice-standard-dir)**
    * **[PSN and PRN](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/psn-prn-dir)**: Key Concepts
+
+---
+
+<h2 id="Document-Metadata">Document Metadata</h2>
+
+| Metadata Type | Key | Value |
+|---|---|---|
+| Document Metadata | Title | `fundamental-smr-lbr-k8r-doc-rep-k8d` Repository Structure |
+| | Description | The `fundamental-smr-lbr-k8r-doc-rep-k8d` repository houses foundational documentation for the Sambar, Lebar, and k8or web applications, along with supporting materials for development within the k8or environment. |
+| | Identification | TBD | |
+| | Version | v0-0-01 | |
+| | Format | md | |
+| | Revision | This is the first version uploaded to the ChatBOT. |
+| | Author | Anna/Barb.Rock |
+| | Date | October 10, 2024 |
+| Subject Metadata | Alias | TBD |
+| |  Name | TBD |
+| |  FQID | TBD |
+| |  Version | s0-0-01 |
+| |  Action | 000010 |
+| hGraph Metadata | Alias | none |
+| |  Name | none |
+| |  FQID | none |
+| |  Version | none |
