@@ -1,6 +1,6 @@
-# Definition of a Communication Chain (Chain) and its ID Structure
+# Definition of a Communication Chain and its ID Structure
 
-This document provides a comprehensive explanation of Communication Chains (Chains) and their corresponding Chain IDs within the Sambar/LeBar/k8or web applications. It outlines the structure and significance of Chain IDs, their role in data flow tracking, and their integration with Payload Structure Numbers (PSNs) and Payload Resource Numbers (PRNs).
+This document provides a comprehensive explanation of Communication Chains and their corresponding Chain IDs within the Sambar/LeBar/k8or web applications. It outlines the structure and significance of Chain IDs, their role in data flow tracking, and their integration with Payload Structure Numbers (PSNs) and Payload Resource Numbers (PRNs).
 
 ## Content
 
@@ -14,7 +14,7 @@ This document provides a comprehensive explanation of Communication Chains (Chai
 
 <h1 id="Introduction">Introduction</h1>
 
-Within the **Sambar/LeBar/k8or web applications**, a **Communication Chain (Chain)** is a specific sequence of microservices that handle a particular data processing task. Data flows through this sequence, undergoing transformations and interactions at each microservice. Each Chain is assigned a unique **Chain ID** for identification and tracking purposes.
+Within the **Sambar/LeBar/k8or web applications**, a **Communication Chain** is a specific sequence of microservices that handle a particular data processing task. Data flows through this sequence, undergoing transformations and interactions at each microservice. Each Chain is assigned a unique **Chain ID** for identification and tracking purposes.
 
 <h1 id="Chain-ID-Structure">Chain ID Structure</h1>
 
