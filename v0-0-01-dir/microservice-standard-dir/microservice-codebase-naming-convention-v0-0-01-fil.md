@@ -1,8 +1,17 @@
-## Sambar Codebase Naming Process
+# Sambar/LeBar/k8or Codebase Naming Convention
 
-This table summarizes the naming process for various programming elements within the Sambar codebase. Consistent and descriptive naming enhances code readability and maintainability.
+This document summarizes the naming convention for various programming elements within the Sambar/LeBar/k8or codebase. Consistent and descriptive naming enhances code readability and maintainability.
 
-### Namespace
+## Content
+
+1. **[Namespace Naming Convention](#Namespace-Naming-Convention)**
+2. **[Class Naming Convention](#Class-Naming-Convention)**
+3. **[Function Naming Convention](#Function-Naming-Convention)**
+4. **[Method Naming Convention](#Method-Naming-Convention)**
+5. **[Property Naming Convention](#Property-Naming-Convention)**
+6. **[Document Metadata](#Document-Metadata)**
+
+<h1 id="Namespace-Naming-Convention">Namespace Naming Convention</h1>
 
 **Definition:** A namespace is a declarative region that encapsulates identifiers, providing a scope for elements such as types, functions, and variables. It serves as an organizational mechanism within codebases, preventing naming conflicts that can arise from multiple code components or external libraries utilizing identical identifiers.
 
@@ -33,7 +42,7 @@ This table summarizes the naming process for various programming elements within
 | NSP       | Classifier | Classifies the resource as a namespace.                   | NSP       |
 | Example   | -          | Complete namespace name structure                         | SambarNSP |
 
-### Class
+<h1 id="Class-Naming-Convention">Class Naming Convention</h1>
 
 **Definition:** A class serves as a blueprint or template, defining the attributes and behaviors shared by a group of objects. It encapsulates the structure and potential actions of entities within a system. An object, in contrast, is a concrete instantiation of a class. It possesses specific values for the attributes defined within its corresponding class and can execute the methods associated with that class. Essentially, objects are instances of classes, each representing a unique entity with its own state and behaviors.
 
@@ -59,7 +68,7 @@ This table summarizes the naming process for various programming elements within
 | CLS                  | Classifier | Classifies the resource as a class.          | CLS               |
 | Example              | -          | Complete class name                          | InvitationCodeCLS |
 
-### Function
+<h1 id="Function-Naming-Convention">Function Naming Convention</h1>
 
 **Definition:** A function is a self-contained block of code that performs a specific task. It's designed to be reusable, meaning it can be called multiple times from different parts of a program.
 
@@ -91,7 +100,7 @@ This table summarizes the naming process for various programming elements within
 | FUN                | Classifier | Classifies the resource as a function.          | FUN                       |
 | Example            | -          | Complete function name                          | VALIDATEinvitationCodeFUN |
 
-### Method
+<h1 id="Method-Naming-Convention">Method Naming Convention</h1>
 
 **Definition:** A method is a function associated with an object. It defines the behavior or action that an object can perform. In essence, it's a procedure that operates on the data contained within an object.
 
@@ -117,7 +126,7 @@ This table summarizes the naming process for various programming elements within
 | MTH              | Classifier | Classifies the resource as a method.                | MTH              |
 | Example          | -          | Complete method name                                | getLeBarTotalMTH |
 
-### Property
+<h1 id="Property-Naming-Convention">Property Naming Convention</h1>
 
 **Definition:** A property is a special kind of class member that provides a flexible mechanism to read, write, or compute the value of a private field.
 
@@ -142,7 +151,7 @@ A **prefix** is a character or group of characters placed at the beginning of a 
 | PRP              | Classifier | Classifies the resource as a property.   | PRP               |
 | Example          | -          | Complete property name                   | $_emailAddressPRP |
 
-### Variable
+<h1 id="Variable-Naming-Convention">Variable Naming Convention</h1>
 
 **Definition:** A variable is a named storage location used to hold data within a computer program. It's like a container that can store different values of various data types (numbers, text, etc.). These values can be changed throughout the program's execution.
 
@@ -171,3 +180,27 @@ A **prefix** is a character or group of characters placed at the beginning of a 
 | variablePurpose | Noun       | Indicates the purpose of the variable. | databaseName     |
 | VAR             | Classifier | Classifies the resource as a variable. | VAR              |
 | Example         | -          | Complete variable name                 | $databaseNameVAR |
+
+---
+
+<h2 id="Document-Metadata-Naming-Convention">Document Metadata</h2>
+
+| Metadata Type | Key | Value |
+|---|---|---|
+| Document Metadata | Title | Sambar/LeBar/k8or Codebase Naming Convention |
+| | Description | This document summarizes the naming convention for various programming elements within the Sambar/LeBar/k8or codebase. Consistent and descriptive naming enhances code readability and maintainability. |
+| | Identification | TBD | |
+| | Version | v0-0-01 | |
+| | Format | md | |
+| | Revision | This is the first version uploaded to the ChatBOT. |
+| | Author | Anna/Barb.Rock |
+| | Date | October 10, 2024 |
+| Subject Metadata | Alias | TBD |
+| |  Name | TBD |
+| |  FQID | TBD |
+| |  Version | s0-0-01 |
+| |  Action | 000010 |
+| hGraph Metadata | Alias | none |
+| |  Name | none |
+| |  FQID | none |
+| |  Version | none |
