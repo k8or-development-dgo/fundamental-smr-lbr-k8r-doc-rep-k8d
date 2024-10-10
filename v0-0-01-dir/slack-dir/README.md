@@ -16,7 +16,7 @@ While `Everest` is currently not operational, its implementation is planned for 
 
 <h1 id="Slack-Workspace-Guidelines">Slack Workspace Guidelines</h1>
 
-**1. `in-n-out`:**
+**1. `in-n-out` Channel:**
    * Use this channel to announce your `logging in` and `logging out` times at the start and end of your workday.
    * Share your break times, adhering to standard break durations (10, 20, 30, 40, 50, or 60 minutes). Breaks exceeding 60 minutes require approval.
    * When taking breaks, share your screen and display an image indicating the break duration (e.g., `10 minute break`). This helps the team understand your activities while screen sharing is active.
@@ -29,17 +29,24 @@ While `Everest` is currently not operational, its implementation is planned for 
        * **[90-minute break image example](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/slack-dir/break-image-dir/90-minute-break-dir/10-minute-break-v0-0-01-fil.jpg)**
        * **[120-minute break image example](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/slack-dir/break-image-dir/120-minute-break-dir/10-minute-break-v0-0-01-fil.jpg)**
 
-**2. `days-off`:**
+**2. `days-off` Channel:**
    * Use this channel to announce your days off. After transitioning to full-time work, days off require approval.
 
-**3. `general`:**
+**3. `general` Channel:**
    * Currently less active, this channel can be used for announcements or discussions that impact the entire k8or team.
 
-**4. `sambar-lebar`:**
+**4. `sambar-lebar` Channel:**
    * Use this channel for discussions and updates related to the Sambar and LeBar web applications.
 
-**5. `team-channel`:**
+**5. `team-channel` Channel:**
    * This channel is used daily to share the Zoom session URL for the team's daily meeting.
+       * Zoom session URL format: 
+       ```
+       Zoom link for [Date]: [Zoom Session URL]
+       ```
+       ```
+       Zoom link for October 10: https://zoom.us/j/96392214408?pwd=Kzbfu7L8kurDazZLKotAl2BTkAXyoa.1
+       ```
    * Use this channel for general team announcements, discussions, or sharing information.
 
 **6. Direct Messages:**
