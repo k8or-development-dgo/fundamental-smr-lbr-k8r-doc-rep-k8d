@@ -5,6 +5,12 @@
 1. **[Introduction](#Introduction)**
 2. **[`Everest` Platform](#Everest-Platform)**
 3. **[Slack Workspace Guidelines](#Slack-Workspace-Guidelines)**
+    * **`in-n-out` Channel**
+    * **`days-off` Channel**
+    * **`general` Channel**
+    * **`sambar-lebar` Channel**
+    * **`team-channel` Channel**
+    * **Direct Messages**
 
 <h1 id="Introduction">Introduction</h1>
 
