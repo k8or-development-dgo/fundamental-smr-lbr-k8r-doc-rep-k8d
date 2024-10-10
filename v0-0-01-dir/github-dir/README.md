@@ -1,6 +1,6 @@
 ## GitHub Organization Structure for Sambar/LeBar/k8or
 
-This document outlines the structure and purpose of GitHub organizations within the Sambar/Lebar/k8or ecosystem, highlighting their role in isolating environments and managing development activities across different cloud providers.
+This document outlines the structure and purpose of GitHub organizations within the Sambar/LeBar/k8or ecosystem, highlighting their role in isolating environments and managing development activities across different cloud providers.
 
 ## Content
 
