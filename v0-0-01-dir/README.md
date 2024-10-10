@@ -5,17 +5,17 @@ This document details the structure and organization of the `v0-0-01-dir` reposi
 ## Content
 
 1. **[Directory Purpose](#Directory-Purpose)**
-2. **[Directory Explanation](#Directory-Explanation)**
+2. **[Sub-Directory Explanation](#Sub-Directory-Explanation)**
 3. **[Study Order for Sambar/LeBar/k8or Documentation](#Study-Order-for-Sambar-LeBar-k8or-Documentation)**
 4. **[Document Metadata](#Document-Metadata)**
 
 <h1 id="Directory-Purpose">Directory Purpose</h1>
 
+The term `dir` is an internal classifier used to denote a directory.
+
 The `v0-0-01-dir` repository directory houses documentation and artifacts related to the initial version `v0-0-01` release of the Sambar, Lebar, and k8or web applications.
 
-<h1 id="Directory-Explanation">Directory Explanation</h1>
-
-The term `dir` is an internal classifier used to denote a directory.
+<h1 id="Sub-Directory-Explanation">Sub-Directory Explanation</h1>
 
 1. **[block-architecture-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/block-architecture-dir):** Contains documentation related to the high-level design and structure of the Sambar, Lebar, and k8or web applications.
 2. **[classifier-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/classifier-dir):** Houses internal classification schemes and terminologies used within the Sambar, Lebar, and k8or web applications.
