@@ -23,24 +23,24 @@ Toggl is integrated with JIRA, enabling synchronization of time entries with JIR
 * **Launch Toggl Desktop:** Open the Toggl Desktop application.
 * **Start a Timer:** Begin a new timer by clicking the "Start" button.
 * **Enter Description:** In the description field, paste the JIRA ticket ID and title in the following format:
-```
-[Your Ticket ID] [Your Ticket Title]
-```
-```
-K8RT-1 Sambar/LeBar/k8or Architecture and Kubernetes Fundamentals
-```
+    ```
+    [Your Ticket ID] [Your Ticket Title]
+    ```
+    ```
+    K8RT-1 Sambar/LeBar/k8or Architecture and Kubernetes Fundamentals
+    ```
 * **Stop Timer:** When you finish working on the task, stop the timer.
 
 <h1 id="JIRA-Ticket-Updates">JIRA Ticket Updates</h1>
 
 * **Status Updates:** Update the JIRA ticket status to `In Progress` when starting work and `Done` upon completion.
 * **Time Entry Comments:** Add comments to the JIRA ticket with the start and end times in the following format:
-```
-Start: 10:30 IST, October 10, 2024
-```
-```
-End: 17:30 IST, October 10, 2024
-```
+    ```
+    Start: 10:30 IST, October 10, 2024
+    ```
+    ```
+    End: 17:30 IST, October 10, 2024
+    ```
 
 ---
 
