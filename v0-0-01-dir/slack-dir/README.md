@@ -27,7 +27,27 @@ While `Everest` is currently not operational, its implementation is planned for 
 
 **1. `in-n-out` Channel:**
    * Use this channel to announce your `logging in` and `logging out` times at the start and end of your workday.
+       * **Message example:**
+           ```
+           logging in
+           ```
+           ```
+           logging out
+           ```
    * Share your break times, adhering to standard break durations (10, 20, 30, 40, 50, or 60 minutes). Breaks exceeding 60 minutes require approval.
+       * **Message example:**
+           ```
+           break 10 minutes
+           ```
+           ```
+           break 20 minutes
+           ```
+           ```
+           break 60 minutes
+           ```
+           ```
+           break 1 hour
+           ```
    * When taking breaks, share your screen and display an image indicating the break duration (e.g., `10 minute break`). This helps the team understand your activities while screen sharing is active.
        * **[10-minute break image example](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/slack-dir/break-image-dir/10-minute-break-dir/10-minute-break-v0-0-01-fil.jpg)**
        * **[20-minute break image example](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/slack-dir/break-image-dir/20-minute-break-dir/10-minute-break-v0-0-01-fil.jpg)**
