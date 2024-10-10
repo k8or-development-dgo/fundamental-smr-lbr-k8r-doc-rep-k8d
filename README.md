@@ -1,11 +1,19 @@
 ## `fundamental-smr-lbr-k8r-doc-rep-k8d` Repository Structure
 
-### Repository Purpose
+## Content
+
+1. **[Repository Purpose](#Repository-Purpose)**
+1. **[Repository Name Breakdown](#Repository-Name-Breakdown)**
+1. **[Directory Explanation](#Directory-Explanation)**
+1. **[Study Order for Sambar/LeBar/k8or Documentation](#Study-Order-for-Sambar-LeBar-k8or-Documentation)**
+1. **[Repository Purpose](#Repository-Purpose)**
+1. **[Repository Purpose](#Repository-Purpose)**
+
+<h1 id="Repository-Purpose">Repository Purpose</h1>
+
 The `fundamental-smr-lbr-k8r-doc-rep-k8d` repository houses foundational documentation for the Sambar, Lebar, and k8or web applications, along with supporting materials for development within the k8or environment.
 
-### Directory Structure
-
-**Repository Name Breakdown:**
+<h1 id="Repository-Name-Breakdown">Repository Name Breakdown</h1>
 
 * **fundamental:** Contains `core documentation`.
 * **smr:** Internal classifier for the `Sambar web application`.
@@ -15,7 +23,7 @@ The `fundamental-smr-lbr-k8r-doc-rep-k8d` repository houses foundational documen
 * **rep:** Internal classifier for `repository`.
 * **k8d:** Internal classifier for the `k8or development environment`.
 
-**Directory Descriptions:**
+<h1 id="Directory-Explanation">Directory Explanation</h1>
 
 The term `dir` is an internal classifier used to denote a directory.
 
@@ -34,7 +42,7 @@ The term `dir` is an internal classifier used to denote a directory.
 13. **[toggl-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/toggl-dir):** Holds documentation and instructions on using Toggl, a time tracking tool, within the Sambar/Lebar/K8or development workflow.
 14. **[slack-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/slack-dir):** Contains documentation and resources for using Slack, a communication platform, within the Sambar/Lebar/K8or team.
 
-## Study Order for Sambar/LeBar/k8or Documentation
+<h1 id="Study-Order-for-Sambar-LeBar-k8or-Documentation">Study Order for Sambar/LeBar/k8or Documentation</h1>
 
 **1. Tools and Platforms:**
    * Connecting and Using **[Windows-WS](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/windows-ws-dir)**
