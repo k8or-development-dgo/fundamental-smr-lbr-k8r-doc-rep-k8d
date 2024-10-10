@@ -28,7 +28,7 @@ The `fundamental-smr-lbr-k8r-doc-rep-k8d` repository houses foundational documen
 
 The term `dir` is an internal classifier used to denote a directory.
 
-1. **[v0-0-01-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir):** Houses documentation and artifacts related to the initial version `v0-0-01` release of the Sambar, Lebar, and K8or web applications.
+1. **[v0-0-01-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir):** Houses documentation and artifacts related to the initial version `v0-0-01` release of the Sambar, Lebar, and k8or web applications.
 2. **[block-architecture-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/block-architecture-dir):** Contains documentation related to the high-level design and structure of the Sambar, Lebar, and k8or web applications.
 3. **[classifier-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/classifier-dir):** Houses internal classification schemes and terminologies used within the Sambar, Lebar, and k8or web applications.
 4. **[document-metadata-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/document-metadata-dir):** Includes metadata information for documents within the Sambar, Lebar, and k8or web applications, such as titles, authors, and creation dates.
