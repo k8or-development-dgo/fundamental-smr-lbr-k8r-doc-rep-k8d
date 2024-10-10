@@ -1,4 +1,4 @@
-## Toggl Time Tracking for Sambar/Lebar/k8or Projects
+# Toggl Time Tracking for Sambar/Lebar/k8or Projects
 
 This document provides guidelines on using Toggl to effectively track time spent on tasks within the Sambar/LeBar/k8or web applications. Toggl is integrated with JIRA, allowing for seamless time tracking and reporting.
 

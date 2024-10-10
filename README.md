@@ -1,4 +1,4 @@
-## `fundamental-smr-lbr-k8r-doc-rep-k8d` Repository Structure
+# `fundamental-smr-lbr-k8r-doc-rep-k8d` Repository Structure
 
 This document serves as a guide to the structure and organization of the fundamental-smr-lbr-k8r-doc-rep-k8d repository. It provides insights into the contents, intended audience, and recommended study order for developers working within the Sambar, Lebar, and k8or web applications.
 

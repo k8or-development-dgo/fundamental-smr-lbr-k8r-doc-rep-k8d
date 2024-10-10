@@ -1,4 +1,4 @@
-## DockerHub Organization Structure for Sambar/LeBar/k8or
+# DockerHub Organization Structure for Sambar/LeBar/k8or
 
 This document delineates the structure and rationale behind the DockerHub organizations employed within the Sambar/LeBar/k8or ecosystem. These organizations play a critical role in isolating and managing distinct environments for each web application, thereby mitigating risks and fostering efficient collaboration.
 

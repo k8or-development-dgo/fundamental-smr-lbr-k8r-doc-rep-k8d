@@ -1,4 +1,4 @@
-## k8or Team Communication Guidelines
+# k8or Team Communication Guidelines
 
 This document establishes communication protocols for the k8or team, primarily using Slack channels.
 

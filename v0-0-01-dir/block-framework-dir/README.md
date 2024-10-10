@@ -1,4 +1,4 @@
-## BLOCK Framework witin the Sambar/LeBar/k8or Web Applications
+# BLOCK Framework witin the Sambar/LeBar/k8or Web Applications
 
 The BLOCK framework offers a modular and efficient approach to constructing web and mobile application backends. This breakdown delves deeper into each component and explores how they work together to achieve functionality.
 

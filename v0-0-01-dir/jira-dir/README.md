@@ -1,4 +1,4 @@
-## Sambar/LeBar/k8or Onboarding and Time Management Guidelines
+# Sambar/LeBar/k8or Onboarding and Time Management Guidelines
 
 This document outlines the essential procedures for new team members joining the Sambar/LeBar/k8or environment to ensure smooth onboarding and efficient time management.
 

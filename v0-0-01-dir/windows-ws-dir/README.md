@@ -1,4 +1,4 @@
-## k8or Windows-WS Security and Management
+# k8or Windows-WS Security and Management
 
 This document outlines the security measures, automated management processes, and connection procedures for the k8or Windows-WS instances.
 
