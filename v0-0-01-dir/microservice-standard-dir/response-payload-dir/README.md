@@ -6,12 +6,13 @@ This document offers a comprehensive technical analysis of the structure and con
 
 1. **[Successful Response Example Payload](#Successful-Response-Example-Payload)**
 2. **[Error Response Example Payload](#Error-Response-Example-Payload)**
-3. **[Actual Data Object `actualDataOBJ`](#Metadata-Object-metadataOBJ)**
-4. **[Naming Conventions](#Naming-Conventions)**
-5. **[Numbering Considerations](#Numbering-Considerations)**
-6. **[Order of Elements](#Order-of-Elements)**
-7. **[Conclusion](#Conclusion)**
-8. **[Document Metadata](#Document-Metadata)**
+3. **[Metadata Object `metadataOBJ`](#Metadata-Object-metadataOBJ)**
+4. **[Actual Data Object `actualDataOBJ`](#Actual-Data-Object-actualDataOBJ)**
+5. **[Naming Conventions](#Naming-Conventions)**
+6. **[Numbering Considerations](#Numbering-Considerations)**
+7. **[Order of Elements](#Order-of-Elements)**
+8. **[Conclusion](#Conclusion)**
+9. **[Document Metadata](#Document-Metadata)**
 
 <h1 id="Successful-Response-Example-Payload">Successful Response Example Payload</h1>
 
