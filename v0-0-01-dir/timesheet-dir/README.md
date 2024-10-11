@@ -60,7 +60,7 @@ The timesheet includes a column for `Number of M-Breaks` to track short breaks o
 
 <h1 id="Download-Weekly-Timesheet-Template">Download Weekly Timesheet Template</h1>
 
-- The weekly timesheet template can be downloaded from the `timesheet-dir/template-dir` GitHub repository directory: **[download template](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/timesheet-dir/template-dir)**. 
+- The weekly timesheet template can be downloaded from the `timesheet-dir/template-dir` GitHub repository directory: **[download template](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/timesheet-dir/template-dir/anna-veretennykova-weekly-timesheet-monday-october-7-2024.xlsx)**. 
 - **Remember to use caution when modifying the template to avoid disrupting the formulas used for calculating working hours.**
 
 ---
