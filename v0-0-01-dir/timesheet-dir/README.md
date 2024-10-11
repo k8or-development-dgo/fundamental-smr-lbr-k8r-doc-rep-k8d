@@ -23,6 +23,8 @@ The timesheet serves as a critical tool for tracking team member attendance, cal
 
 The filename follows a consistent format: `[Name]-[Weekly Timesheet]-[Start Date]`. For example, `anna-veretennykova-weekly-timesheet-monday-october-7-2024`.
 
+![Alt text](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/blob/k8or-dev/v0-0-01-dir/timesheet-dir/example-dir/timesheet-file-name-v0-0-01-fil.png)
+
 <h1 id="File-Structure">File Structure</h1>
 
 The timesheet is organized into two main sections:
@@ -32,10 +34,14 @@ The timesheet is organized into two main sections:
    - **Planned Hours:** Lists the planned workdays, start and end times, break durations, and total hours.
    - **Total Hours per Week:** Displays the total planned working hours for the week.
 
+![Alt text](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/blob/k8or-dev/v0-0-01-dir/timesheet-dir/example-dir/planned-timing-v0-0-01-fil.png)
+
 2. **Actual Timing:**
    - **Header:** Similar to the planned schedule header, but with the addition of `Actual Timing`.
    - **Actual Hours:** Lists the actual workdays, start and end times, break durations, number of mini-breaks, and total hours worked.
    - **Total Hours per Week:** Displays the total actual working hours for the week.
+
+![Alt text](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/blob/k8or-dev/v0-0-01-dir/timesheet-dir/example-dir/actual-timing-v0-0-01-fil.png)
 
 <h1 id="Data-Format">Data Format</h1>
 
@@ -49,6 +55,8 @@ The timesheet is organized into two main sections:
 <h1 id="Mini-Break-Tracking">Mini-Break Tracking</h1>
 
 The timesheet includes a column for `Number of M-Breaks` to track short breaks or `mini-breaks` taken throughout the day. These mini-breaks are not explicitly listed in the planned or actual timing sections. Instead, the number of mini-breaks taken on each day is recorded in the column `Number of M-Breaks`.
+
+![Alt text](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/blob/k8or-dev/v0-0-01-dir/timesheet-dir/example-dir/mini-break-v0-0-01-fil.png)
 
 <h1 id="Additional-Notes">Additional Notes</h1>
 
