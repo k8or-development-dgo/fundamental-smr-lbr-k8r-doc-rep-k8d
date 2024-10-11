@@ -10,7 +10,7 @@ This document provides an overview of the directory structure and the content of
 
 <h1 id="Directory-Structure">Directory Structure</h1>
 
-This repository houses a collection of documents related to naming conventions and payload structures within the Sambar/LeBar/k8or web applications. The following directory structure is employed:
+This repository houses a collection of documents related to microservice naming conventions and microservice payload structures within the Sambar/LeBar/k8or web applications. The following directory structure is employed:
 
 * **[codebase-naming-convention-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/microservice-standard-dir/codebase-naming-convention-dir)**
 * **[communication-chain-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/microservice-standard-dir/codebase-naming-convention-dir)**
