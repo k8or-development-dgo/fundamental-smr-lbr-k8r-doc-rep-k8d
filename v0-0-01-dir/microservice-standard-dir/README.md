@@ -1,6 +1,6 @@
 # Microservice Standards within the Sambar/LeBar/k8or Web Applications
 
-This document provides an overview of the directory structure and the content of the documents within this repository. It explains the purpose of this collection: establishing clear naming conventions and payload structures for the Sambar/LeBar/k8or web applications.
+This document provides an overview of the directory structure and the content of the documents within this repository. It explains the purpose of this collection: establishing clear microservice naming conventions and microservice payload structures for the Sambar/LeBar/k8or web applications.
 
 ## Content
 
