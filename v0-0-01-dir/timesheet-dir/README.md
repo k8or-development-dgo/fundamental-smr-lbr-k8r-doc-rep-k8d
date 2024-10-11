@@ -10,7 +10,8 @@ This document provides a comprehensive guide to the structure and conventions us
 4. **[Data Format](#Data-Format)**
 5. **[Mini-Break Tracking](#Mini-Break-Tracking)**
 6. **[Additional Notes](#Additional-Notes)**
-7. **[Document Metadata](#Document-Metadata)**
+7. **[Download Weekly Timesheet Template](#Download-Weekly-Timesheet-Template)**
+8. **[Document Metadata](#Document-Metadata)**
 
 <h1 id="Introduction">Introduction</h1>
 
@@ -56,6 +57,11 @@ The timesheet includes a column for `Number of M-Breaks` to track short breaks o
 - The `Actual Timing` section allows for comparison between planned and actual working hours, identifying any discrepancies or adjustments.
 - The timesheet integrates with AWS EventBridge to automate the scheduling of EC2 instance start times based on the recorded working hours.
 - **Caution: When updating the timesheet template, be careful not to delete or modify any existing formulas. These formulas are critical for accurately calculating working hours and totals.**
+
+<h1 id="Download-Weekly-Timesheet-Template">Download Weekly Timesheet Template</h1>
+
+- The weekly timesheet template can be downloaded from the `timesheet-dir/template-dir` GitHub repository directory: **[download template](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/timesheet-dir/template-dir)**. 
+- **Remember to use caution when modifying the template to avoid disrupting the formulas used for calculating working hours.**
 
 ---
 
