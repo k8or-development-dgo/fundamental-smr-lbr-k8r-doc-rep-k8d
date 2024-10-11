@@ -33,7 +33,27 @@ This document outlines the structure and components of the metadata associated w
            ```
            v0-0-01
            ```
-           
+   * **Document Category:** Categorization of the document (e.g., application, infrastructure, miscellaneous).
+       * **Example:** 
+           ```
+           document
+           ```
+   * **Application:** Specifies the target application or system.
+       * **Example:** 
+           ```
+           sambar-lebar
+           ```
+   * **Infrastructure:** Indicates the underlying infrastructure or platform.
+       * **Example:** 
+           ```
+           k8or
+           ```
+   * **Miscellaneous:** Additional categorization for non-standard types.
+       * **Example:** 
+           ```
+           none
+           ```
+
 4. **Version:** The specific version of the document.
     * **Example:** 
         ```
