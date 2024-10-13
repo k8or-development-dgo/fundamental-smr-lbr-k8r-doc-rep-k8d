@@ -1,6 +1,6 @@
-# Data Resource Breakdown within the Sambar/LeBar/k8or Web Applications
+# Data Preparation Resource Breakdown within the Sambar/LeBar/k8or Web Applications
 
-This document uses `User Registration` Flow-2 as an example to illustrate the data resource breakdown. The same principles and processes apply to all other flows within the Sambar/LeBar/k8or web applications.
+This document uses `User Registration` Flow-2 as an example to illustrate the data preparation resource breakdown. The same principles and processes apply to all other flows within the Sambar/LeBar/k8or web applications.
 
 ## Content
 
@@ -12,7 +12,7 @@ This document uses `User Registration` Flow-2 as an example to illustrate the da
     * **[User Invitation Code Data](#User-Invitation-Code-Data)**
     * **[Wordpress Options Data](#Wordpress-Options-Data)**
 4. **[Action Words](#Action-Words)**
-5. **[Data Preparation Creation Order](#Data-Preparation-Creation-Order)**
+5. **[Data Preparation Order](#Data-Preparation-Order)**
 6. **[Data Resource Unique Identification](#Data-Resource-Unique-Identification)**
 7. **[Document Metadata](#Document-Metadata)**
 
@@ -43,7 +43,7 @@ Data repositories within the Sambar/LeBar/k8or web applications contain the foll
 
 <h2 id="Register-Plan-Data">Register Plan Data</h2>
 
-* **Example resource name** is `register-plan-0203-v0-0-01-fil.json`.
+* **Example resource name** is `register-plan-dat-0203-v0-0-01-fil.json`.
 * **Purpose:** This JSON file serves as a source of truth for the frontend component, providing it with a list of available subscription plans that a new user can choose from during the registration process. This data empowers users to make informed decisions regarding their desired subscription level.
 * **Learn More:** Visit the provided URL for a comprehensive guide to understanding and using `Register Plan Data` JSON structure effectively:
     * **[Register Plan Data Explanation](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/data-repository-dir/register-plan-data-dir)**
@@ -51,7 +51,7 @@ Data repositories within the Sambar/LeBar/k8or web applications contain the foll
 
 <h2 id="User-Account-Number-Data">User Account Number Data</h2>
 
-* **Example resource name** is `user-account-number-0203-v0-0-01-fil.csv`.
+* **Example resource name** is `user-account-number-dat-0203-v0-0-01-fil.csv`.
 * **Purpose:** This CSV file acts as a repository for a pool of available account numbers. These numbers are assigned to new users during the registration process. This data streamlines account creation by ensuring a readily available pool of unique identifiers.
 * **Learn More:** Visit the provided URL for a comprehensive guide to understanding and using `Register Plan Data` JSON structure effectively:
     * **[User Account Number Data Explanation](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/data-repository-dir/user-account-number-data-dir)**
@@ -59,7 +59,7 @@ Data repositories within the Sambar/LeBar/k8or web applications contain the foll
 
 <h2 id="User-Invitation-Code-Data">User Invitation Code Data</h2>
 
-* **Example resource name** is `user-invitation-code-0209-v0-0-01-fil.csv`.
+* **Example resource name** is `user-invitation-code-dat-0209-v0-0-01-fil.csv`.
 * **Purpose:** This CSV file acts as a repository for user invitation codes. During registration, the user-provided invitation code is validated against this data source. Additionally, upon successful registration, the corresponding invitation code is marked as used within the system. This data resource safeguards the integrity of the invitation system and prevents code reuse.
 * **Learn More:** Visit the provided URL for a comprehensive guide to understanding and using `Register Plan Data` JSON structure effectively:
     * **[User Invitation Code Data Explanation](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/data-repository-dir/user-invitation-code-data-dir)**
@@ -67,7 +67,7 @@ Data repositories within the Sambar/LeBar/k8or web applications contain the foll
 
 <h2 id="Wordpress-Options-Data">Wordpress Options Data</h2>
 
-* **Example resource name** is `wp-options-0212-v0-0-01-fil.csv`.
+* **Example resource name** is `wp-options-dat-0212-v0-0-01-fil.csv`.
 * **Purpose:** This CSV file serves as a data source for the `wp_options` table within the WordPress MySQL database. This table is responsible for storing settings specific to individual plugins and themes, enabling customization and extension of WordPress functionalities. This data allows for tailored user experiences based on specific plugin and theme configurations.
 * **Learn More:** Visit the provided URL for a comprehensive guide to understanding and using `Register Plan Data` JSON structure effectively:
     * **[Wordpress Options Data Explanation](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/data-repository-dir/wp-options-data-dir)**
@@ -79,7 +79,7 @@ Data repositories within the Sambar/LeBar/k8or web applications contain the foll
 * The word **prepare** is used for the preparation of data required for the User Registration Flow-2. This includes data extraction and transformation.
 * The word **test** is used for the testing of prepared data to ensure its accuracy, completeness, and compliance with the expected format and requirements. This involves unit tests, integration tests, and other validation methods.
 
-<h1 id="Data-Preparation-Creation-Order">Data Preparation Creation Order</h1>
+<h1 id="Data-Preparation-Order">Data Preparation Order</h1>
 
 When listing data resources within the data resource list, it's important to follow a specific order to maintain clarity and consistency:
 
@@ -110,8 +110,8 @@ Each data resource has a unique identifier that reflects its purpose and placeme
 
 | Metadata Type | Key | Value |
 |---|---|---|
-| Document Metadata | Title | Data Resource Breakdown within the Sambar/LeBar/k8or Web Applications |
-| | Description | This document uses `User Registration` Flow-2 as an example to illustrate the data resource breakdown. The same principles and processes apply to all other flows within the Sambar/LeBar/k8or web applications. |
+| Document Metadata | Title | Data Preparation Resource Breakdown within the Sambar/LeBar/k8or Web Applications |
+| | Description | This document uses `User Registration` Flow-2 as an example to illustrate the data preparation resource breakdown. The same principles and processes apply to all other flows within the Sambar/LeBar/k8or web applications. |
 | | Identification | TBD | |
 | | Version | v0-0-01 | |
 | | Format | md | |
