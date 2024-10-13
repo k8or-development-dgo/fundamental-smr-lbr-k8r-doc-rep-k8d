@@ -20,8 +20,21 @@ This document uses `User Registration` Flow-2 as an example to illustrate the da
 
 Within the Sambar/LeBar/k8or web applications, it's critical to differentiate between data resources and population resources.
 
-* **Data Resources:** While also essential, data resources are primarily focused on providing the metadata and data preparation necessary for the application to function effectively. 
-* **Population Resources:** 
+**Data Resources:**
+
+* **Metadata and Data Preparation:** Data resources are primarily focused on providing the metadata and data preparation necessary for the application's operation. 
+* **Supporting Role:** While critical, data resources play a supporting role, providing the underlying data that application resources utilize.
+
+**Population Resources:**
+
+* **Data Ingestion:** Population resources are responsible for populating backend resources with the prepared data from data resources. This involves transferring data from data repositories or storages into tables or collections.
+* **Direct Interaction with Backend Resources:** Population resources directly interact with backend resources to populate them with data, ensuring that the application has the necessary information to function.
+
+**Key Differences:**
+
+* **Functionality:** Data resources provide the raw data and metadata, while population resources actively populate backend resources with this data.
+* **Scope:** Data resources may have a broader scope, encompassing data extraction, transformation, and loading processes. Population resources are more focused on the specific task of populating backend resources.
+* **Dependency:** Population resources depend on data resources for the data they need to populate backend resources.
 
 **Example:**
 
