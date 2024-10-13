@@ -66,7 +66,7 @@ When creating an application resource list for a new flow, follow these steps:
     * **Backend Microservices:** List backend microservices that interact with the backend resources.
     * **Frontend Microservices:** Include frontend microservices that communicate with the backend microservices.
     * **Infrastructure Resources:** Exclude IAM roles, policies, users, and access keys from the application resource list, as they are infrastructure-level resources.
-9. **Infrastructure Resource References:** For infrastructure resources used in the application resource list, such as AWS Cognito, AWS SNS, AWS SES, AWS S3 bucket, AWS MySQL cluster or DigitalOcean MongoDB cluster, use the action words `test` and `use` and refer to the relevant infrastructure repositories.
+9. **Infrastructure Resource References:** For infrastructure resources used in the application resource list, such as AWS Cognito, AWS SNS, AWS SES, AWS S3 bucket, DigitalOcean MySQL cluster or MongoDB cluster, use the action words `test` and `use` and refer to the relevant infrastructure repositories.
 10. **Essential Infrastructure Resources:** Include infrastructure resources that directly impact the application's functionality in the application resource list.
 
 <h1 id="Application-Resource-Types">Application Resource Types</h1>
