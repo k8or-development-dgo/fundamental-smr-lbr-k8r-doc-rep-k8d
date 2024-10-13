@@ -193,7 +193,7 @@ The document specifies the order of deploying resources for Flow-2. Generally, r
 
 <h1 id="Application-Resource-Unique-Identification">Application Resource Unique Identification</h1>
 
-Application resources within the Sambar/LeBar/k8or web applications follow a standardized naming convention for identification. For example, `flow-2-inf-5` consists of:
+Application resources within the Sambar/LeBar/k8or web applications follow a standardized naming convention for identification. For example, `flow-2-app-5` consists of:
 
 * **flow-2:** Indicates the specific `User Registration` Flow-2 within the Sambar web application.
 * **app:** Denotes the resource type as an application component.
@@ -208,7 +208,7 @@ Each resource has a unique identifier that reflects its purpose and placement wi
 | Metadata Type | Key | Value |
 |---|---|---|
 | Document Metadata | Title | Application Resource Breakdown within the Sambar/LeBar/k8or Web Applications |
-| | Description | This document uses `User Registration` Flow-2 as an example to illustrate the infrastructure resource breakdown. The same principles and processes apply to all other flows within the Sambar/LeBar/k8or web applications. |
+| | Description | This document uses `User Registration` Flow-2 as an example to illustrate the application resource breakdown. The same principles and processes apply to all other flows within the Sambar/LeBar/k8or web applications. |
 | | Identification | TBD | |
 | | Version | v0-0-01 | |
 | | Format | md | |
