@@ -61,7 +61,7 @@ The timesheet includes a column for `Number of M-Breaks` to track short breaks o
 <h1 id="Additional-Notes">Additional Notes</h1>
 
 - The timesheet is used to track team member attendance, calculate wages, and schedule AWS EC2 instance start times.
-- The `Number of M-Breaks` column might be used to track short breaks or `mini-breaks` taken throughout the day.
+- The `Number of M-Breaks` column is used to track short breaks or `mini-breaks` taken throughout the day.
 - The `Actual Timing` section allows for comparison between planned and actual working hours, identifying any discrepancies or adjustments.
 - The timesheet integrates with AWS EventBridge to automate the scheduling of EC2 instance start times based on the recorded working hours.
 - **Caution: When updating the timesheet template, be careful not to delete or modify any existing formulas. These formulas are critical for accurately calculating working hours and totals.**

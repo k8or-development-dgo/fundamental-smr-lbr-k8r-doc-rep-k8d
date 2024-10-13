@@ -46,10 +46,14 @@ The organizations are further divided based on the cloud provider used for deplo
 
 Within each cloud provider-based GitHub organization, four primary repository types are maintained:
 
-1. **Infrastructure Repository:** Contains resources necessary for creating and configuring the underlying infrastructure components of a specific flow within the Sambar/Lebar/k8or web applications. This includes cloud services, Kubernetes clusters, namespaces, and other supporting elements.
-2. **Application Repository:** Houses the microservice code, configuration files and backend resources, such as MySQL tables, MongoDB collections, and PostgreSQL tables, specific to the application logic and functionality of a particular flow. This encompasses frontend and backend microservices and related backend resources.
-3. **Data Repository:** Stores the metadata and data required to prepare for the Sambar web application.
-4. **Population Repository:** Contains documentation outlining the steps to load the prepared data into the backend resources of the Sambar web application.
+1. **[Infrastructure Repository](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir):** Contains resources necessary for creating and configuring the underlying infrastructure components of a specific flow within the Sambar/Lebar/k8or web applications. This includes cloud services, Kubernetes clusters, namespaces, and other supporting elements.
+2. **[Application Repository](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/application-repository-dir):** Houses the microservice code, configuration files and backend resources, such as MySQL tables, MongoDB collections, and PostgreSQL tables, specific to the application logic and functionality of a particular flow. This encompasses frontend and backend microservices and related backend resources.
+3. **[Data Repository](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/data-repository-dir):** Stores the metadata and data required to prepare for the Sambar web application.
+4. **[Population Repository](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/population-repository-dir):** Contains documentation outlining the steps to load the prepared data into the backend resources of the Sambar web application.
+
+### Explore and analyze the various repository types within the Sambar/LeBar/k8or GitHub organizations, including infrastructure, application, data, and population repositories. This analysis should involve opening dedicated URLs for each repository type to gain a deeper understanding of their contents and purpose.
+
+### To effectively study and work within the Sambar/LeBar/k8or web applications, it's essential to follow a consistent order: always begin by exploring infrastructure repositories (1), then proceed to application repositories (2), followed by data repositories (3), and finally population repositories (4) within each flow.
 
 **Naming Convention**
 
