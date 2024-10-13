@@ -103,11 +103,12 @@ Infrastructure repositories within the Sambar/LeBar/k8or web applications contai
 The infrastructure resource creation order is:
 
 1. **Kubernetes Cluster:** Create the cluster first.
-2. **Kubernetes Secrets:** Create secrets for credentials and certificates.
-3. **Ingress:** Configure the Ingress resource to route traffic to microservices.
-4. **AWS Services:** Configure and test AWS services like SNS, SES, and Cognito.
-5. **Storage:** Create storage buckets for data and images.
-6. **IAM:** Create IAM policies, roles, and users with necessary permissions.
+2. **Kubernetes Namespaces:** Create namespaces within the cluster for logical isolation.
+3. **Kubernetes Secrets:** Create secrets for credentials and certificates.
+4. **Ingress:** Configure the Ingress resource to route traffic to microservices.
+5. **AWS Services:** Configure and test AWS services like SNS, SES, and Cognito.
+6. **Storage:** Create storage buckets for data and images.
+7. **IAM:** Create IAM policies, roles, and users with necessary permissions.
 
 **Remember:** The specific order and resource requirements may vary depending on the flow and its functionalities. This breakdown provides a general guideline for understanding the infrastructure setup within Sambar/LeBar/k8or web applications.
 
