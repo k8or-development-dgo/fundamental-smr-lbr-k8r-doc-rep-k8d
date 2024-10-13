@@ -54,7 +54,8 @@ It's important to note that application resources and infrastructure resources a
 
 When creating an application resource list for a new flow, follow these steps:
 
-1. **Identify BLOCK Diagrams:** Locate all existing Lucidchart or Miro BLOCK diagrams that pertain to the new flow.
+1. **Identify BLOCK Diagrams:** Locate all existing Lucidchart or Miro BLOCK diagrams that pertain to the new flow:
+    * **[BLOCK diagrams](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/block-framework-dir/diagram-dir)**
 2. **Count BLOCKs:** Determine the number of BLOCKs within the flow based on the BLOCK diagrams.
 3. **Find Flow Repository:** Locate the BLOCK diagrams for the new flow within the application repository.
 4. **Start with the First BLOCK:** Begin with the initial BLOCK and include its BLOCK diagram URL.
