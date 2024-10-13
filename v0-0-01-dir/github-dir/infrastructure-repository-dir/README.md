@@ -1,4 +1,4 @@
-## Infrastructure Resource Breakdown within the Sambar/LeBar/k8or Web Applications
+# Infrastructure Resource Breakdown within the Sambar/LeBar/k8or Web Applications
 
 This document uses `User Registration` Flow-2 as an example to illustrate the infrastructure resource breakdown. The same principles and processes apply to all other flows within the Sambar/LeBar/k8or web applications.
 

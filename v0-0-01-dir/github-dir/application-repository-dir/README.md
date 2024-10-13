@@ -1,4 +1,4 @@
-## Application Resource Breakdown within the Sambar/LeBar/k8or Web Applications
+# Application Resource Breakdown within the Sambar/LeBar/k8or Web Applications
 
 This document uses `User Registration` Flow-2 as an example to illustrate the application resource breakdown. The same principles and processes apply to all other flows within the Sambar/LeBar/k8or web applications.
 
