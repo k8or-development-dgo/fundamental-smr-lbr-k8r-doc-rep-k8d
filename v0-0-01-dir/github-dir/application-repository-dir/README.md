@@ -4,22 +4,25 @@ This document uses `User Registration` Flow-2 as an example to illustrate the ap
 
 ## Content
 
-1. **[Application Resource Types](#Application-Resource-Types)**
-    * **[](#)**
-    * **[](#)**
-    * **[](#)**
-    * **[](#)**
-    * **[](#)**
-    * **[](#)**
-    * **[](#)**
-    * **[](#)**
-    * **[](#)**
-    * **[](#)**
-2. **[Action Words](#Action-Words)**
-3. **[Application Creation Order](#Application-Creation-Order)**
-4. **[Action Words `Create` vs. `Test`](#Action-Words-Create-vs-Test)**
-5. **[Application Resource Unique Identification](#Application-Resource-Unique-Identification)**
-6. **[Document Metadata](#Document-Metadata)**
+1. **[Application Resources vs. Infrastructure Resources](#Application-Resources-vs-Infrastructure-Resources)**
+2. **[Relationship Between Application Resources and BLOCKs](#Relationship-Between-Application-Resources-and-BLOCKs)**
+3. **[Structure of Application Resource Lists](#Structure-of-Application-Resource-Lists)**
+4. **[Importance of Listing Application Resources by Leg](#Importance-of-Listing-Application-Resources-by-Leg)**
+5. **[Creating Application Resource Lists for New Flows](#Creating-Application-Resource-Lists-for-New-Flows)**
+6. **[Application Resource Types](#Application-Resource-Types)**
+    * **[MongoDB Collection](#MongoDB-Collection)**
+    * **[Spaces Object Storage](#Spaces-Object-Storage)**
+    * **[MySQL Table](#MySQL-Table)**
+    * **[CloudWatch](#CloudWatch)**
+    * **[S3 Bucket](#S3-Bucket)**
+    * **[Cognito Pool](#Cognito-Pool)**
+    * **[Backend Microservice](#Backend-Microservice)**
+    * **[Frontend Microservice](#Frontend-Microservice)**
+7. **[Action Words](#Action-Words)**
+8. **[Application Creation Order](#Application-Creation-Order)**
+9. **[Action Words `Create` vs. `Test`](#Action-Words-Create-vs-Test)**
+10. **[Application Resource Unique Identification](#Application-Resource-Unique-Identification)**
+11. **[Document Metadata](#Document-Metadata)**
 
 <h1 id="Application-Resources-vs-Infrastructure-Resources">Application Resources vs. Infrastructure Resources</h1>
 
@@ -80,7 +83,7 @@ Application repositories within the Sambar/LeBar/k8or web applications contain t
 * **Example resource name** is `user-registration-image-03203-sd2-dgo`.
 * **Purpose:** Stores files and objects of any size, offering durability, availability, and scalability. It's suitable for storing images, videos, documents, and other media assets.
 * **Learn More:** Visit the provided URL for detailed information on managing object storage using Spaces:
-    * **[Spaces Object Storage Explanation](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/application-repository-dir/spaces-object-storage-dir)**
+    * **[Spaces Object Storage Explanation](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/application-repository-dir/space-object-storage-dir)**
 * **Understanding:** Explore how to create Spaces buckets, upload and download objects, manage access controls, and integrate Spaces with other DigitalOcean services.
 
 <h2 id="MySQL-Table">MySQL Table</h2>
@@ -196,63 +199,3 @@ Each resource has a unique identifier that reflects its purpose and placement wi
 | |  Name | none |
 | |  FQID | none |
 | |  Version | none |
-
-
-
-
-
-
-
-## Explanation of Application Resources for User Registration Flow-2 in Sambar Web Application
-
-This document explains the application resources involved in Flow-2 of the Sambar web application's user registration process. Flow-2 focuses on user information collection, validation, account creation, and notification workflows.
-
-### Sambar's Flows and BLOCKs Architecture
-
-Sambar utilizes a modular architecture with Flows and BLOCKs. Each Flow represents a user journey (e.g., registration, login). BLOCKs within a Flow handle specific functionalities and interact with backend resources like databases and microservices.
-
-**Refer to the associated documentation for a deeper understanding of this architecture.**
-
-### User Registration Flow-2 Introduction
-
-Flow-2 plays a crucial role in user registration. It involves various backend resources and microservices working together to:
-
-* Collect user information
-* Validate user input
-* Create user accounts
-* Send notifications
-
-This document outlines the deployment and testing order for these components to ensure a smooth registration experience.
-
-### Breakdown of Action Words
-
-* **Use:** Utilizes an existing resource created in prior flows.
-* **Create:** Establishes new resources like databases, tables, or collections.
-* **Build:** Compiles and packages the source code into a Docker image for deployment.
-* **Deploy:** Makes the microservice operational by deploying its Docker image.
-* **Test:** Verifies the functionality and proper operation of the created resources.
-
-### Flow-2 BLOCK-3
-
-This section details the resources involved in BLOCK-3 of Flow-2, which focuses on user information gathering, plan selection, and image upload.
-
-**You can view the BLOCK diagram here:** [https://github.com/sambar-development-dgo/flow-2-application-rep-sd2-dgo/blob/sdvps-48/v0-0-01-dir/dia-dir/f2b3-user-registration-sd2-v.0.1.26.pdf](https://github.com/sambar-development-dgo/flow-2-application-rep-sd2-dgo/blob/sdvps-48/v0-0-01-dir/dia-dir/f2b3-user-registration-sd2-v.0.1.26.pdf)
-
-**Here's a breakdown of the resources:**
-
-#### Leg `F2B3L4` Read
-
-* **flow-2-app-1. constant-0203-cll MongoDB Collection:**
-    * **Purpose:** Provides the frontend with available subscription plans for user selection.
-    * **Create:** [flow-2-constant-0203-cll-mdb-cll-rep-sd2-dgo](https://github.com/sambar-development-dgo/flow-2-constant-0203-cll-mdb-cll-rep-sd2-dgo)
-    * **Test:** [flow-2-constant-0203-cll-mdb-cll-tst-rep-sd2-dgo](https://github.com/sambar-development-dgo/flow-2-constant-0203-cll-mdb-cll-tst-rep-sd2-dgo)
-* **flow-2-app-2. ua0203-no-us-en-sd2-lo User Authentication PHP Backend Microservice:**
-    * **Purpose:**
-        * Fetches an available account number from the `user-account-number` table.
-        * Assigns the fetched account number to the new user.
-        * Handles user registration image upload and storage in DigitalOcean Spaces.
-        * Retrieves available subscription plans from `constant-0203-cll`.
-    * **Build:** [flow-2-ua0203-no-us-en-sd2-lo-src-cod-php-rep-sd2-dgo](https://github.com/sambar-development-dgo/flow-2-ua0203-no-us-en-sd2-lo-src-cod-php-rep-sd2-dgo)
-    * **Deploy:** [flow-2-ua0203-no-us-en-sd2-lo-res-mnf-php-rep-sd2-dgo](https://github.com/sambar-development-dgo/flow-2-ua0203-no-us-en-sd2-lo-res-mnf-php-rep-sd2-dgo)
-    * **Test:** [flow-2-ua0203-no-us-en-sd2-lo-tst-php-rep-sd2-dgo](https://github.com/sambar-development-dgo/flow-2-ua0203-no-us-en-sd2-lo-tst-php-rep-sd2-dgo)
-* **flow-2-app-3. ub02130-no-us-en-sd2
