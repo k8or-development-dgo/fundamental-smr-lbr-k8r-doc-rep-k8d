@@ -1,4 +1,4 @@
-## Sambar/LeBar/k8or Web Application Infrastructure Resource Breakdown
+## Infrastructure Resource Breakdown within the Sambar/LeBar/k8or Web Applications
 
 This document uses `User Registration` Flow-2 as an example to illustrate the infrastructure resource breakdown. The same principles and processes apply to all other flows within the Sambar/LeBar/k8or web applications.
 
@@ -9,6 +9,9 @@ This document uses `User Registration` Flow-2 as an example to illustrate the in
     * **[Kubernetes Namespaces](#Kubernetes-Namespaces)**
     * **[Kubernetes Secrets](#Kubernetes-Secrets)**
     * **[Ingress Resources](#Ingress-Resources)**
+    * **[Amazon Simple Notification Service `SNS`](#Amazon-Simple-Notification-Service-SNS)**
+    * **[Amazon Simple Email Service `SES`](#Amazon-Simple-Email-Service-SES)**
+    * **[Google reCAPTCHA](#Google-reCAPTCHA)**
     * **[AWS Cognito](#AWS-Cognito)**
     * **[Database Clusters](#Database-Clusters)**
     * **[Cloud Storage](#Cloud-Storage)**
@@ -26,6 +29,7 @@ Infrastructure repositories within the Sambar/LeBar/k8or web applications contai
 
 <h2 id="Kubernetes-Cluster">Kubernetes Cluster</h2>
 
+* **Example resource name** is `sambar-mng-lon-1400-10-ctr-sd2-dgo`.
 * **Purpose:** The Kubernetes cluster serves as the foundational platform for orchestrating and managing microservices within the Sambar/LeBar/k8or web applications. It provides a robust and scalable environment for deploying, scaling, and managing the various microservices that compose these applications. The cluster ensures that the microservices are distributed efficiently across the available infrastructure, handles load balancing, and provides fault tolerance mechanisms for high availability and resilience.
 * **Learn More:** Visit the provided URL for a detailed explanation of Kubernetes cluster solutions within this infrastructure:
     * **[Kubernetes Cluster Explanation](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/kubernetes-cluster-dir)**
@@ -37,6 +41,7 @@ Infrastructure repositories within the Sambar/LeBar/k8or web applications contai
 
 <h2 id="Kubernetes-Namespaces">Kubernetes Namespaces</h2>
 
+* **Example resource name** is `sambar-registration-nsp-dgo`.
 * **Purpose:** Create logical isolation units within the Kubernetes cluster. Namespaces enable separation of resources and workloads for different applications or environments.
 * **Learn More:** Visit the provided URL for an in-depth explanation of Kubernetes namespaces and their benefits for managing resources within the Sambar/LeBar/k8or deployments:
     * **[Kubernetes Namespaces Explanation](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/kubernetes-cluster-dir)** 
@@ -44,6 +49,7 @@ Infrastructure repositories within the Sambar/LeBar/k8or web applications contai
 
 <h2 id="Kubernetes-Secrets">Kubernetes Secrets</h2>
 
+* **Example resource name** is `sambar-registration-nsp-dkr-0203-secret-sd2-dgo`.
 * **Purpose:** Store sensitive information used by applications and services within the Kubernetes cluster. This includes DockerHub credentials and SSL certificates.
 * **Learn More:** Visit the provided URL for detailed information on managing secrets securely within the Kubernetes environment used for Sambar/LeBar/k8or applications:
     * **[Kubernetes Secrets Explanation](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/kubernetes-secrets-dir)** 
@@ -51,13 +57,39 @@ Infrastructure repositories within the Sambar/LeBar/k8or web applications contai
 
 <h2 id="Ingress-Resources">Ingress Resources</h2>
 
+* **Example resource name** is `sambar-one-0203-ingress-sd2-dgo`.
 * **Purpose:** Route external traffic from the internet to specific microservices deployed within the Kubernetes cluster. Ingress acts as a single entry point.
 * **Learn More:** Visit the provided URL for a thorough explanation of Ingress resources and their configuration for routing traffic to the Sambar/LeBar/k8or web applications:
     * **[Ingress Resources Explanation](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/ingress-resources-dir)** 
 * **Understanding:** Explore how Ingress is configured, manages traffic flow, and directs external requests to the appropriate microservices within the cluster.
 
+<h2 id="Amazon-Simple-Notification-Service-SNS">Amazon Simple Notification Service `SNS`</h2>
+
+* **Example resource name** is `SNS`.
+* **Purpose:** SNS is a highly scalable and cost-effective pub/sub messaging service from AWS. It allows Sambar/LeBar/k8or applications to send real-time notifications via SMS or mobile push messages.
+* **Learn More:** Visit the provided URL for comprehensive information on features, integrations, and best practices:
+    * **[Amazon Simple Notification Service `SNS` Explanation](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/aws-sns-dir)** 
+* **Understanding:** Explore how to configure SNS topics and subscriptions for the applications. Learn about sending SMS notifications, integrating with mobile push services, and monitoring delivery metrics.
+
+<h2 id="Amazon-Simple-Email-Service-SES">Amazon Simple Email Service `SES`</h2>
+
+* **Example resource name** is `SES`.
+* **Purpose:** SES is a cost-effective email service offered by AWS that enables sending transactional emails from the Sambar/LeBar/k8or web applications. 
+* **Learn More:** Visit the provided URL for detailed information on functionalities, configuration, and best practices:
+    * **[Amazon Simple Email Service `SES` Explanation](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/aws-ses-dir)**  
+* **Understanding:** Explore how to integrate SES with the applications to send emails for notifications, password resets, or other transactional purposes. Learn about email verification, spam filtering, and reputation management features offered by SES.
+
+<h2 id="Google-reCAPTCHA">Google reCAPTCHA</h2>
+
+* **Example resource name** is `reCAPTCHA`.
+* **Purpose:** reCAPTCHA is a free service by Google that helps protect the Sambar/LeBar/k8or web applications from bots and spam. It verifies that users interacting with the applications are real humans.
+* **Learn More:** Visit the provided URL for detailed information on types of reCAPTCHA, integration steps, and administration:
+    * **[Google reCAPTCHA Explanation](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/google-recaptcha-dir)** 
+* **Understanding:** Explore how to integrate reCAPTCHA v2 or v3 into the application forms to prevent automated bot attacks and improve user experience. Learn about managing reCAPTCHA API keys and monitoring its effectiveness.
+
 <h2 id="AWS-Cognito">AWS Cognito</h2>
 
+* **Example resource name** is `user-pool-03603-sd2-aws`.
 * **Purpose:** Manages user identities and authentication for the Sambar/LeBar/k8or web applications. Cognito provides a user pool for secure login and access control.
 * **Learn More:** Visit the provided URL for a comprehensive overview of AWS Cognito functionalities and its role in user management for these applications:
     * **[AWS Cognito Explanation](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/aws-cognito-dir)** 
@@ -65,6 +97,7 @@ Infrastructure repositories within the Sambar/LeBar/k8or web applications contai
 
 <h2 id="Database-Clusters">Database Clusters</h2>
 
+* **Example resource name** is `sambar-mdb-02403-ctr-sd2-dgo`.
 * **Purpose:** Stores application data required for the Sambar/LeBar/k8or web applications. These clusters can be MySQL or MongoDB deployments.
 * **Learn More:** Visit the provided URL for specific information on managing database clusters used by these applications:
     * **[Database Clusters Explanation](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/database-cluster-dir)** 
@@ -72,6 +105,7 @@ Infrastructure repositories within the Sambar/LeBar/k8or web applications contai
 
 <h2 id="Cloud-Storage">Cloud Storage</h2>
 
+* **Example resource name** is `user-registration-image-03203-sd2-dgo`.
 * **Purpose:** Stores data, logs, and images used by the Sambar/LeBar/k8or web applications. Examples include Amazon S3 or DigitalOcean Spaces.
 * **Learn More:** Visit the provided URL for a detailed explanation of cloud storage solutions within this infrastructure:
     * **[Cloud Storage Explanation](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/cloud-storage-dir)**
@@ -79,6 +113,7 @@ Infrastructure repositories within the Sambar/LeBar/k8or web applications contai
 
 <h2 id="AWS-Identity-and-Access-Management-IAM">AWS Identity and Access Management `IAM`</h2>
 
+* **Example resource name** is `usn0215-no-us-en-sd2-lo-sns-usr-sd2-aws`.
 * **Purpose:** Manages permissions and credentials for services within the infrastructure. IAM includes users, policies, roles, and access keys. 
 * **Learn More:** Visit the provided URL for a deep dive into AWS IAM concepts and configurations relevant to Sambar/LeBar/k8or applications.
     * **[AWS Identity and Access Management `IAM` Explanation](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/aws-iam-dir)**
@@ -86,6 +121,7 @@ Infrastructure repositories within the Sambar/LeBar/k8or web applications contai
 
 <h2 id="DigitalOcean-Spaces-Access-Keys">DigitalOcean Spaces Access Keys</h2>
 
+* **Example resource name** is `ua0203-no-us-en-sd2-lo-spc-acs-key-sd2-dgo`.
 * **Purpose:** Credentials specifically used to access data stored in DigitalOcean Spaces within the infrastructure.
 * **Learn More:** Visit the provided URL for details on managing DigitalOcean Spaces access keys and security practices:
     * **[DigitalOcean Spaces Access Keys Explanation](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/space-access-key-dir)**
@@ -138,7 +174,7 @@ Each resource has a unique identifier that reflects its purpose and placement wi
 
 | Metadata Type | Key | Value |
 |---|---|---|
-| Document Metadata | Title | Sambar/LeBar/k8or Web Application Infrastructure Resource Breakdown |
+| Document Metadata | Title | Infrastructure Resource Breakdown within the Sambar/LeBar/k8or Web Applications |
 | | Description | This document uses `User Registration` Flow-2 as an example to illustrate the infrastructure resource breakdown. The same principles and processes apply to all other flows within the Sambar/LeBar/k8or web applications. |
 | | Identification | TBD | |
 | | Version | v0-0-01 | |
