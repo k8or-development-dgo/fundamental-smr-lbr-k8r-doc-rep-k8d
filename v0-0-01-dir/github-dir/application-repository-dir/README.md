@@ -18,18 +18,21 @@ This document uses `User Registration` Flow-2 as an example to illustrate the ap
     * **[Cognito Pool](#Cognito-Pool)**
     * **[Backend Microservice](#Backend-Microservice)**
     * **[Frontend Microservice](#Frontend-Microservice)**
-7. **[Action Words](#Action-Words)**
-8. **[Application Creation Order](#Application-Creation-Order)**
-9. **[Action Words `Create` vs. `Test`](#Action-Words-Create-vs-Test)**
-10. **[Application Resource Unique Identification](#Application-Resource-Unique-Identification)**
-11. **[Document Metadata](#Document-Metadata)**
+7. **[Key Factors Influencing Order](#Key-Factors-Influencing-Order)**
+8. **[Flexible Approach](#Flexible-Approach)**
+9. **[Example Scenario](#Example-Scenario)**
+10. **[Action Words](#Action-Words)**
+11. **[Application Creation Order](#Application-Creation-Order)**
+12. **[Action Words `Create` vs. `Test`](#Action-Words-Create-vs-Test)**
+13. **[Application Resource Unique Identification](#Application-Resource-Unique-Identification)**
+14. **[Document Metadata](#Document-Metadata)**
 
 <h1 id="Application-Resources-vs-Infrastructure-Resources">Application Resources vs. Infrastructure Resources</h1>
 
 It's important to note that application resources and infrastructure resources are distinct entities within the Sambar web application.
 
-* **Infrastructure Resources:** These are specific resources used within individual flows of the application. They include Kubernetes clusters, namespaces, secrets, databases, cloud storage, and other essential components.
-* **Application Resources:** These are specific resources used within individual BLOCKs of the application. They represent the building BLOCKs of the application's functionality, such as microservices, databases, tables, and collections.
+* **Infrastructure Resources:** These are specific resources used within individual flows of the Sambar/LeBar/k8or web applications. They include Kubernetes clusters, namespaces, secrets, databases, cloud storage, and other essential components.
+* **Application Resources:** These are specific resources used within individual BLOCKs of the Sambar/LeBar/k8or web applications. They represent the building BLOCKs of the application's functionality, such as microservices, databases, tables, and collections.
 
 <h1 id="Relationship-Between-Application-Resources-and-BLOCKs">Relationship Between Application Resources and BLOCKs</h1>
 
@@ -142,36 +145,58 @@ Application repositories within the Sambar/LeBar/k8or web applications contain t
 * **Deploy:** Makes the microservice operational by deploying its Docker image.
 * **Test:** Verifies the functionality and proper operation of the created resources.
 
-<h1 id="Infrastructure-Creation-Order">Infrastructure Creation Order</h1>
+<h1 id="Application-Creation-Order">Application Creation Order</h1>
 
-The infrastructure resource creation order is:
+The application resource creation order is:
 
-1. **Kubernetes Cluster:** Create the cluster first.
-2. **Kubernetes Namespaces:** Create namespaces within the cluster for logical isolation.
-3. **Kubernetes Secrets:** Create secrets for credentials and certificates.
-4. **Ingress:** Configure the Ingress resource to route traffic to microservices.
-5. **AWS Services:** Configure and test AWS services like SNS, SES, and Cognito.
-6. **Storage:** Create storage buckets for data and images.
-7. **IAM:** Create IAM policies, roles, and users with necessary permissions.
+1. **Backend Resources:**
+   * **Purpose:** These resources form the foundation of the Sambar/LeBar/k8or application's data storage and processing capabilities. They include databases, object storage, and other data-related components.
+   * **Create First:** Backend resources should be created before microservices, as microservices rely on these resources for data storage and retrieval.
 
-**Remember:** The specific order and resource requirements may vary depending on the flow and its functionalities. This breakdown provides a general guideline for understanding the infrastructure setup within Sambar/LeBar/k8or web applications.
+2. **Backend Microservices:**
+   * **Purpose:** These microservices handle the business logic and API endpoints of the Sambar/LeBar/k8or web applications. They interact with backend resources to process data and provide services.
+   * **Create After Backend Resources:** Backend microservices should be built and deployed after the necessary backend resources are in place, as they depend on these resources for their operations.
+
+3. **Frontend Microservices:**
+   * **Purpose:** These microservices handle the user interface and interact with backend microservices to fetch and display data.
+   * **Create Last:** Frontend microservices should be built and deployed after backend microservices are ready, as they rely on the APIs exposed by backend microservices to function effectively.
+
+### While the general order of creating backend resources, backend microservices, and frontend microservices is recommended, it's important to note that the specific order can vary depending on the individual legs within a flow.
+
+<h1 id="Key-Factors-Influencing-Order">Key Factors Influencing Order</h1>
+
+* **Leg-Specific Requirements:** Each leg within a flow may have unique resource dependencies. If a leg primarily relies on MySQL tables, creating the MySQL table first would be logical. Similarly, if a leg heavily uses MongoDB collections, creating the MongoDB collection first would be appropriate.
+* **Infrastructure Resource Dependencies:** If a leg involves infrastructure resources like Cognito pools or Spaces Object Storage, the infrastructure repository for those resources should be listed first, along with the action words `test` and `use`. This indicates that these resources are prerequisites for the application resources within the leg.
+
+<h1 id="Flexible-Approach">Flexible Approach</h1>
+
+* **Adapt to Leg Needs:** The creation order of application resources can be adjusted to align with the specific requirements of each leg.
+* **Prioritize Dependencies:** Always prioritize the creation of resources that are dependencies for other resources within the leg.
+
+<h1 id="Example-Scenario">Example Scenario</h1>
+
+If a leg primarily uses a MySQL table and a backend microservice that interacts with it, the following order would be suitable:
+
+1. **Create MySQL Table:** Establish the database structure and schema.
+2. **Build and Deploy Backend Microservice:** Build and deploy the microservice to interact with the MySQL table and perform its intended functions.
+3. **Build and Deploy Frontend Microservice:** If the leg requires a frontend component, build and deploy it after the backend microservice is ready.
 
 <h1 id="Action-Words-Create-vs-Test">Action Words `Create` vs. `Test`</h1>
 
-The document specifies the order of deploying resources for Flow-2. Generally, resources are created first, followed by their configuration and testing. However, some resources might be reused from previous flows, indicated by `Use`.
+The document specifies the order of deploying resources for Flow-2. Generally, resources are created first, followed by their testing. However, some resources might be reused from previous flows, indicated by `Use`.
 
 **Example:**
 
-- **Kubernetes Cluster** needs to be created before testing it.
-- **Cognito User Pool** requires creation and testing before other resources can interact with it.
-- **S3 Bucket** follows the same creation and testing order.
+- **Backend/Frontend Microservice** needs to be built and deployed before testing it.
+- **MongoDB Collection** requires creation and testing before other resources can interact with it.
+- **MySQL Table** follows the same creation and testing order.
 
-<h1 id="Infrastructure-Resource-Unique-Identification">Infrastructure Resource Unique Identification</h1>
+<h1 id="Application-Resource-Unique-Identification">Application Resource Unique Identification</h1>
 
-Infrastructure resources within the Sambar/LeBar/k8or web applications follow a standardized naming convention for identification. For example, `flow-2-inf-5` consists of:
+Application resources within the Sambar/LeBar/k8or web applications follow a standardized naming convention for identification. For example, `flow-2-inf-5` consists of:
 
 * **flow-2:** Indicates the specific `User Registration` Flow-2 within the Sambar web application.
-* **inf:** Denotes the resource type as an infrastructure component.
+* **app:** Denotes the resource type as an application component.
 * **5:** Represents the sequence of the resource within the flow.
 
 Each resource has a unique identifier that reflects its purpose and placement within the Sambar/LeBar/k8or applications. It's critical to adhere to this naming convention and maintain the established order of resource creation to ensure consistent and efficient operation of the web applications.
