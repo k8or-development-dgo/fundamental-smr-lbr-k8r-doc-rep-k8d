@@ -5,15 +5,15 @@ This document uses `User Registration` Flow-2 as an example to illustrate the in
 ## Content
 
 1. **[Infrastructure Resource Types](#Infrastructure-Resource-Types)**
-    * **[Kubernetes Cluster](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/kubernetes-cluster-dir)**
-    * **[Kubernetes Namespaces](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/kubernetes-cluster-dir)**
-    * **[Kubernetes Secrets](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/kubernetes-secrets-dir)**
-    * **[Ingress Resources](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/ingress-resources-dir)**
-    * **[AWS Cognito](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/aws-cognito-dir)**
-    * **[Database Clusters](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/database-cluster-dir)**
-    * **[Cloud Storage](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/cloud-storage-dir)**
-    * **[AWS Identity and Access Management `IAM`](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/aws-iam-dir)**
-    * **[DigitalOcean Spaces Access Keys](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir/infrastructure-repository-dir/space-access-key-dir)**
+    * **[Kubernetes Cluster](#Kubernetes-Cluster)**
+    * **[Kubernetes Namespaces](#Kubernetes-Namespaces)**
+    * **[Kubernetes Secrets](#Kubernetes-Secrets)**
+    * **[Ingress Resources](#Ingress-Resources)**
+    * **[AWS Cognito](#AWS-Cognito)**
+    * **[Database Clusters](#Database-Clusters)**
+    * **[Cloud Storage](#Cloud-Storage)**
+    * **[AWS Identity and Access Management `IAM`](#AWS-Identity-and-Access-Management-IAM)**
+    * **[DigitalOcean Spaces Access Keys](#DigitalOcean-Spaces-Access-Keys)**
 2. **[Action Words](#Action-Words)**
 3. **[Infrastructure Creation Order](#Infrastructure-Creation-Order)**
 4. **[Action Words `Create` vs. `Test`](#Action-Words-Create-vs-Test)**
