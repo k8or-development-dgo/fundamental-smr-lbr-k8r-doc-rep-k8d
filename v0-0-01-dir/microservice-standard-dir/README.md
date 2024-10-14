@@ -19,6 +19,7 @@ This repository houses a collection of documents related to microservice naming 
 * **[naming-convention-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/microservice-standard-dir/naming-convention-dir)**
 * **[request-payload-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/microservice-standard-dir/request-payload-dir)**
 * **[response-payload-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/microservice-standard-dir/response-payload-dir)**
+* **[microservice-type-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/microservice-standard-dir/microservice-type-dir)**
 
 <h1 id="Sub-Directory-Structure">Sub-Directory Structure</h1>
 
