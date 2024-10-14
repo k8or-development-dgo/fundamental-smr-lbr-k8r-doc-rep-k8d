@@ -21,10 +21,10 @@ The Sambar microservice catalog specifically focuses on the microservices that a
 
 | Microservice Name | Abbreviation | Description | Used |
 |---|---|---|---|
-| **User Authentication** Backend Microservice | `ua` | Handles user authentication and authorization. | |
-| **User Invitation** Backend Microservice | `ui` | Manages user invitations. | |
-| **User SMS Notification** Backend Microservice | `usn` | Sends SMS notifications to users. | |
-| **User Information Payload** Backend Microservice | `uip` | Stores and manages user information. | |
+| **User Authentication** Backend Microservice | `ua` | Handles user authentication and authorization. | `f2b3` `f2b6` |
+| **User Invitation** Backend Microservice | `ui` | Manages user invitations. | `f2b9` |
+| **User SMS Notification** Backend Microservice | `usn` | Sends SMS notifications to users. | `f2b15` |
+| **User Information Payload** Backend Microservice | `uip` | Stores and manages user information. | `f2b12` |
 | **User Payload Event Log** Backend Microservice | `upel` | Logs user payload events. | |
 | **Authorization** Backend Microservice | `auth` | Handles authorization for different actions. | |
 | **Analyst Authentication** Backend Microservice | `aa` | Handles analyst authentication and authorization. | |
@@ -105,8 +105,8 @@ The Sambar microservice catalog specifically focuses on the microservices that a
 
 | Microservice Name | Abbreviation | Description | Used |
 |---|---|---|---|
-| **Site Static Page** Frontend Microservice | `ssp` | Handles static pages of the website. | |
-| **User Board** Frontend Microservice | `ub` | Provides the user board interface. | |
+| **Site Static Page** Frontend Microservice | `ssp` | Handles static pages of the website. | `f1b3` |
+| **User Board** Frontend Microservice | `ub` | Provides the user board interface. | `f2b3` |
 | **Add LeBar Form** Frontend Microservice | `alf` | Provides the form for adding LeBar. | |
 | **T-Input UI** Frontend Microservice | `tu` | Provides the T-Input user interface. | |
 | **Widget Equity Two Leg Spread** Frontend Microservice | `wetls` | Provides the widget for equity two leg spread. | |
@@ -129,7 +129,7 @@ The Sambar microservice catalog specifically focuses on the microservices that a
 
 | Microservice Name | Abbreviation | Description | Used |
 |---|---|---|---|
-| Analyst Article CMS Backend Microservice | `aac` | Manages analyst articles. | |
+| Analyst Article CMS Backend Microservice | `aac` | Manages analyst articles. | `f2b12` |
 | Article Portal Backend Microservice | `ap` | Handles article portal functionality. | |
 
 ---
