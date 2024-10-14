@@ -6,7 +6,8 @@ This document provides a comprehensive overview of the backend microservice appl
 
 1. **[Microservice Application Repository Types](#Microservice-Application-Repository-Types)**
 2. **[Naming Convention for Microservice Application Repositories](#Naming-Convention-for-Microservice-Application-Repositories)**
-3. **[Document Metadata](#Document-Metadata)**
+3. **[Microservice Types](#Microservice-Types)**
+4. **[Document Metadata](#Document-Metadata)**
 
 <h1 id="Microservice-Application-Repository-Types">Microservice Application Repository Types</h1>
 
@@ -32,6 +33,10 @@ The naming convention for the microservice application repositories within the S
 * **rep:** Indicates that this component is a repository, a collection of files and directories that store the backend microservice's code, configuration, and other resources.
 * **sd2:** Identifies the operational environment, `sd2` for Sambar development environment.
 * **dgo:** Indicates the cloud provider, DigitalOcean, where the backend microservice is deployed.
+
+<h1 id="Microservice-Types">Microservice Types</h1>
+
+For a detailed breakdown of the microservice types and their functions in the Sambar/LeBar/k8or web applications, refer to the comprehensive catalog linked **[here](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/microservice-standard-dir/microservice-type-dir)**.
 
 ---
 
