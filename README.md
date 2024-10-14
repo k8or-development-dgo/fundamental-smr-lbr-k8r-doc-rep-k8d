@@ -49,8 +49,9 @@ The `v0-0-01-dir` directory houses documentation and artifacts related to the in
 14. **[slack-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/slack-dir):** Contains documentation and resources for using Slack, a communication platform, within the Sambar/LeBar/k8or team.
 15. **[timesheet-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/timesheet-dir):** Provides documentation and instructions on using timesheets, for tracking development hours or project progress within the Sambar/LeBar/k8or environment.
 16. **[toggl-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/toggl-dir):** Holds documentation and instructions on using Toggl, a time tracking tool, within the Sambar/LeBar/k8or development workflow.
-17. **[vocabulary-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/vocabulary-dir):** Provides a glossary of terms and definitions used within the Sambar, LeBar, and k8or web applications.
-18. **[windows-ws-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/windows-ws-dir):** Contains documentation and resources for using a Windows Workspace (Windows-WS) for development within the Sambar/LeBar/k8or environment.
+17. **[trello-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/trello-dir):** Provides a structured environment for the k8or team to track project progress, assign tasks, manage deadlines, and collaborate effectively.
+18. **[vocabulary-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/vocabulary-dir):** Provides a glossary of terms and definitions used within the Sambar, LeBar, and k8or web applications.
+19. **[windows-ws-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/windows-ws-dir):** Contains documentation and resources for using a Windows Workspace (Windows-WS) for development within the Sambar/LeBar/k8or environment.
 
 <h1 id="Study-Order-for-Sambar-LeBar-k8or-Documentation">Study Order for Sambar/LeBar/k8or Documentation</h1>
 
@@ -59,6 +60,7 @@ The `v0-0-01-dir` directory houses documentation and artifacts related to the in
    * Mastering **[Slack](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/slack-dir)**
    * Navigating **[JIRA](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/jira-dir)**
    * Utilizing **[Toggl](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/toggl-dir)**
+   * Utilizing **[Trello](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/trello-dir)**
    * Creating **[Timesheet](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/timesheet-dir)**
    * Understanding **[GitHub](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/github-dir)** Structure
    * Understanding **[DockerHub](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/dockerhub-dir)** Structure
