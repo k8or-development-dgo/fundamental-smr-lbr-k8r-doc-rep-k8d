@@ -132,7 +132,7 @@ The Sambar microservice catalog specifically focuses on the microservices that a
 | **Analyst Board** Frontend Microservice | `ab` | Provides the analyst board interface. | `f51b3` |
 | **Symbol** Frontend Microservice | `sym` | Manages symbols. | `f19b3` |
 | **Widget Ticker** Frontend Microservice | `wt` | Provides the widget ticker. | `f17b3` |
-| **Unwind Profit Loss** Distribution Frontend Microservice | `uwpld` | Handles unwind profit loss distribution. | `f16b30` |
+| **Unwind Profit Loss Distribution** Frontend Microservice | `uwpld` | Handles unwind profit loss distribution. | `f16b30` |
 
 <h2 id="Sambar-Data-and-Content-Management-Microservices">Sambar Data and Content Management Microservices</h2>
 
