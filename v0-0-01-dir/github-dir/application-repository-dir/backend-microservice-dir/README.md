@@ -11,13 +11,13 @@ This document provides a comprehensive overview of the backend microservice appl
 
 <h1 id="Microservice-Application-Repository-Types">Microservice Application Repository Types</h1>
 
-1. **Source Code Repository:** Contains the source code for the backend microservice, used to build the Docker image.
-2. **Resource Manifest Repository:** Defines the configuration and deployment details for the backend microservice, including the newly built Docker image.
-3. **Test Repository:** Contains test cases and scripts to verify the functionality of the deployed microservice.
+1. **[Source Code Repository](#Naming-Convention-for-Source-Code-Repository):** Contains the source code for the backend microservice, used to build the Docker image.
+2. **[Resource Manifest Repository](#Naming-Convention-for-Resource-Manifest-Repository):** Defines the configuration and deployment details for the backend microservice, including the newly built Docker image.
+3. **[Test Repository](#Naming-Convention-for-Test-Repository):** Contains test cases and scripts to verify the functionality of the deployed microservice.
 
-<h1 id="Naming-Convention-for-Microservice-Application-Repositories">Naming Convention for Microservice Application Repositories</h1>
+<h1 id="Naming-Convention-for-Source-Code-Repository">Naming Convention for Source Code Repository</h1>
 
-The naming convention for the microservice application repositories within the Sambar/LeBar/k8or web applications adheres to a consistent structure, designed for clarity and organization:
+The naming convention for the source code repositories within the Sambar/LeBar/k8or web applications adheres to a consistent structure, designed for clarity and organization:
 
 * **flow-2:** Indicates that this resource belongs to the `User Registration` Flow-2 of the Sambar web application, signifying its functional context within the broader application.
 * **ua0206:** Represents a unique identifier assigned to the backend microservice, ensuring its distinct identification within the system. This component consists of two parts:
@@ -29,6 +29,44 @@ The naming convention for the microservice application repositories within the S
 * **sd2:** Identifies the operational environment where the microservice is deployed. `sd2` signifies the Sambar development environment, indicating that the backend microservice is currently in a development phase.
 * **lo:** Specifies the region where the microservice is deployed. `lo` indicates that the microservice is deployed in the London region.
 * **src-cod:** Denotes the source code, indicating that this component contains the programming code that defines the backend microservice's functionality.
+* **php:** Specifies the programming language used to develop the backend microservice. `php` indicates that the source code is written in PHP.
+* **rep:** Indicates that this component is a repository, a collection of files and directories that store the backend microservice's code, configuration, and other resources.
+* **sd2:** Identifies the operational environment, `sd2` for Sambar development environment.
+* **dgo:** Indicates the cloud provider, DigitalOcean, where the backend microservice is deployed.
+
+<h1 id="Naming-Convention-for-Resource-Manifest-Repository">Naming Convention for Resource Manifest Repository</h1>
+
+The naming convention for the resource manifest repositories within the Sambar/LeBar/k8or web applications adheres to a consistent structure, designed for clarity and organization:
+
+* **flow-2:** Indicates that this resource belongs to the `User Registration` Flow-2 of the Sambar web application, signifying its functional context within the broader application.
+* **ua0206:** Represents a unique identifier assigned to the backend microservice, ensuring its distinct identification within the system. This component consists of two parts:
+  * **ua:** The alphabetic prefix is formed by concatenating the initial letter of each word in the full microservice name. In this case, `ua` stands for `User Authentication` This prefix provides a concise representation of the backend microservice's primary function.
+  * **0206:** The numeric suffix, such as `0206`, serves as a reference to the specific Flow and BLOCK within the system where the backend microservice is originally defined. This correlation facilitates traceability and understanding of the backend microservice's origin and context.
+* **no:** Specifies the target user group based on subscription plans. In this case, `no` indicates that the backend microservice is designed for users who do not have a subscription.
+* **us:** Indicates the geographical region for which the backend microservice is intended. `us` signifies that the backend microservice is designed for the United States market.
+* **en:** Specifies the language supported by the microservice. `en` indicates that the microservice is designed for English-speaking users.
+* **sd2:** Identifies the operational environment where the microservice is deployed. `sd2` signifies the Sambar development environment, indicating that the backend microservice is currently in a development phase.
+* **lo:** Specifies the region where the microservice is deployed. `lo` indicates that the microservice is deployed in the London region.
+* **res-mnf:** Contains the resource manifest files, which define the configurations for the backend microservices.
+* **php:** Specifies the programming language used to develop the backend microservice. `php` indicates that the source code is written in PHP.
+* **rep:** Indicates that this component is a repository, a collection of files and directories that store the backend microservice's code, configuration, and other resources.
+* **sd2:** Identifies the operational environment, `sd2` for Sambar development environment.
+* **dgo:** Indicates the cloud provider, DigitalOcean, where the backend microservice is deployed.
+
+<h1 id="Naming-Convention-for-Test-Repository">Naming Convention for Test Repository</h1>
+
+The naming convention for the test repositories within the Sambar/LeBar/k8or web applications adheres to a consistent structure, designed for clarity and organization:
+
+* **flow-2:** Indicates that this resource belongs to the `User Registration` Flow-2 of the Sambar web application, signifying its functional context within the broader application.
+* **ua0206:** Represents a unique identifier assigned to the backend microservice, ensuring its distinct identification within the system. This component consists of two parts:
+  * **ua:** The alphabetic prefix is formed by concatenating the initial letter of each word in the full microservice name. In this case, `ua` stands for `User Authentication` This prefix provides a concise representation of the backend microservice's primary function.
+  * **0206:** The numeric suffix, such as `0206`, serves as a reference to the specific Flow and BLOCK within the system where the backend microservice is originally defined. This correlation facilitates traceability and understanding of the backend microservice's origin and context.
+* **no:** Specifies the target user group based on subscription plans. In this case, `no` indicates that the backend microservice is designed for users who do not have a subscription.
+* **us:** Indicates the geographical region for which the backend microservice is intended. `us` signifies that the backend microservice is designed for the United States market.
+* **en:** Specifies the language supported by the microservice. `en` indicates that the microservice is designed for English-speaking users.
+* **sd2:** Identifies the operational environment where the microservice is deployed. `sd2` signifies the Sambar development environment, indicating that the backend microservice is currently in a development phase.
+* **lo:** Specifies the region where the microservice is deployed. `lo` indicates that the microservice is deployed in the London region.
+* **tst:** Contains the testing documentation, which outlines the procedures and criteria for testing the backend microservice.
 * **php:** Specifies the programming language used to develop the backend microservice. `php` indicates that the source code is written in PHP.
 * **rep:** Indicates that this component is a repository, a collection of files and directories that store the backend microservice's code, configuration, and other resources.
 * **sd2:** Identifies the operational environment, `sd2` for Sambar development environment.
