@@ -21,11 +21,11 @@ The Sambar microservice catalog specifically focuses on the microservices that a
 
 | Microservice Name | Abbreviation | Description | Used |
 |---|---|---|---|
-| **User Authentication** Backend Microservice | `ua` | Handles user authentication and authorization. | `f2b3` `f2b6` |
+| **User Authentication** Backend Microservice | `ua` | Handles user authentication and authorization. | `f2b3` `f2b6` `f3b3` `f3b6` `f3b12` `f3b18` `f4b3` `f5b3` `f5b9` `f7b3` `f7b6` `f7b9` |
 | **User Invitation** Backend Microservice | `ui` | Manages user invitations. | `f2b9` |
-| **User SMS Notification** Backend Microservice | `usn` | Sends SMS notifications to users. | `f2b15` |
+| **User SMS Notification** Backend Microservice | `usn` | Sends SMS notifications to users. | `f2b15` `f3b15` `f4b12` `f5b9` `f6b9` `f7b12` `f7b24` `f7b36` |
 | **User Information Payload** Backend Microservice | `uip` | Stores and manages user information. | `f2b12` |
-| **User Payload Event Log** Backend Microservice | `upel` | Logs user payload events. | |
+| **User Payload Event Log** Backend Microservice | `upel` | Logs user payload events. | `f3b6` `f3b15` `f3b18` `f4b9` `f5b3` `f7b6` `f7b12` |
 | **Authorization** Backend Microservice | `auth` | Handles authorization for different actions. | |
 | **Analyst Authentication** Backend Microservice | `aa` | Handles analyst authentication and authorization. | |
 | **Analyst Invitation** Backend Microservice | `ai` | Manages analyst invitations. | |
@@ -35,22 +35,22 @@ The Sambar microservice catalog specifically focuses on the microservices that a
 
 | Microservice Name | Abbreviation | Description | Used |
 |---|---|---|---|
-| **Subscription** Backend Microservice | `sub` | Manages user subscriptions. | |
-| **Credit Total** Backend Microservice | `ct` | Calculates and manages user credit totals. | |
-| **LeBar Total** Backend Microservice | `lt` | Calculates and manages LeBar totals. | |
-| **LeBar Cent Information** Backend Microservice | `lci` | Provides information about LeBar cents. | |
-| **Add LeBar** Backend Microservice | `al` | Adds LeBar to user accounts. | |
-| **Move LeBar** Backend Microservice | `ml` | Moves LeBar between different accounts or purposes. | |
+| **Subscription** Backend Microservice | `sub` | Manages user subscriptions. | `f3b3` `f4b9` `f5b3` `f5b4` `f5b6` `f5b12` `f7b18` `f7b21` `f7b27` |
+| **Credit Total** Backend Microservice | `ct` | Calculates and manages user credit totals. | `f4b6` `f5b4` `f7b18` `f7b33` |
+| **LeBar Total** Backend Microservice | `lt` | Calculates and manages LeBar totals. | `f4b6` `f5b6` `f6b3` `f7b18` `f7b30` `f7b33` |
+| **LeBar Cent Information** Backend Microservice | `lci` | Provides information about LeBar cents. | `f4b6` `f7b18` `f7b27` `f7b39` |
+| **Add LeBar** Backend Microservice | `al` | Adds LeBar to user accounts. | `f6b3` `f6b6` |
+| **Move LeBar** Backend Microservice | `ml` | Moves LeBar between different accounts or purposes. | `f7b30` `f7b33` |
 | **Cent to LeBar** Backend Microservice | `ctl` | Converts cents to LeBar. | |
 | **Credit Distribution** Backend Microservice | `cd` | Distributes credit among users. | |
 | **Convert Credit Event Log** Backend Microservice | `ccel` | Logs credit conversion events. | |
-| **User Board Notification** Backend Microservice | `ubn` | Handles user board notifications. | |
+| **User Board Notification** Backend Microservice | `ubn` | Handles user board notifications. | `f7b15` |
 
 <h2 id="Sambar-Trade-Execution-and-Management-Microservices">Sambar Trade Execution and Management Microservices</h2>
 
 | Microservice Name | Abbreviation | Description | Used |
 |---|---|---|---|
-| **Trade Order** Backend Microservice | `to` | Manages trade orders. | |
+| **Trade Order** Backend Microservice | `to` | Manages trade orders. | f7b45 |
 | **T-Input Logic** Backend Microservice | `tl` | Handles T-Input logic for trades. | |
 | **Strategy Search Data** Backend Microservice | `ssd` | Stores and manages strategy search data. | |
 | **Strategy Subscription Event Log** Backend Microservice | `ssel` | Logs strategy subscription events. | |
@@ -107,7 +107,7 @@ The Sambar microservice catalog specifically focuses on the microservices that a
 |---|---|---|---|
 | **Site Static Page** Frontend Microservice | `ssp` | Handles static pages of the website. | `f1b3` |
 | **User Board** Frontend Microservice | `ub` | Provides the user board interface. | `f2b3` |
-| **Add LeBar Form** Frontend Microservice | `alf` | Provides the form for adding LeBar. | |
+| **Add LeBar Form** Frontend Microservice | `alf` | Provides the form for adding LeBar. | `f6b3` |
 | **T-Input UI** Frontend Microservice | `tu` | Provides the T-Input user interface. | |
 | **Widget Equity Two Leg Spread** Frontend Microservice | `wetls` | Provides the widget for equity two leg spread. | |
 | **Widget Future Outright Seasonal** Frontend Microservice | `wfos` | Provides the widget for future outright seasonal data. | |
@@ -129,7 +129,7 @@ The Sambar microservice catalog specifically focuses on the microservices that a
 
 | Microservice Name | Abbreviation | Description | Used |
 |---|---|---|---|
-| Analyst Article CMS Backend Microservice | `aac` | Manages analyst articles. | `f2b12` |
+| Analyst Article CMS Backend Microservice | `aac` | Manages analyst articles. | `f2b12` `f3b9` `f3b12` `f4b9` `f7b3` `f7b9` `f7b42` |
 | Article Portal Backend Microservice | `ap` | Handles article portal functionality. | |
 
 ---
