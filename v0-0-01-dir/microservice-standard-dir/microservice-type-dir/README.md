@@ -11,7 +11,12 @@ This document serves as a comprehensive catalog of all frontend and backend micr
     * **[Sambar Data Processing and Analytics Microservices](#Sambar-Data-Processing-and-Analytics-Microservices)**
     * **[Sambar Frontend and UI Microservices](#Sambar-Frontend-and-UI-Microservices)**
     * **[Sambar Data and Content Management Microservices](#Sambar-Data-and-Content-Management-Microservices)**
-2. **[Document Metadata](#Document-Metadata)**
+2. **[LeBar Microservice Types](#LeBar-Microservice-Types)**
+    * **[LeBar User Management and Authentication Microservices](#LeBar-User-Management-and-Authentication-Microservices)**
+    * **[LeBar User Purchase and Transaction](#LeBar-User-Purchase-and-Transaction)**
+    * **[LeBar Frontend and UI Microservices](#LeBar-Frontend-and-UI-Microservices)**
+    * **[LeBar Data and Analytics](#LeBar-Data-and-Analytics)**
+3. **[Document Metadata](#Document-Metadata)**
 
 <h1 id="Sambar-Microservice-Types">Sambar Microservice Types</h1>
 
@@ -140,6 +145,57 @@ The Sambar microservice catalog specifically focuses on the microservices that a
 |---|---|---|---|
 | Analyst Article CMS Backend Microservice | `aac` | Manages analyst articles. | `f2b12` `f3b9` `f3b12` `f4b9` `f7b3` `f7b9` `f7b42` `f10b3` `f10b6` `f10b9` `f51b12` |
 | Article Portal Backend Microservice | `ap` | Handles article portal functionality. | `f23b3` |
+
+<h1 id="LeBar-Microservice-Types">LeBar Microservice Types</h1>
+
+The LeBar microservice catalog specifically focuses on the microservices that are integral to the LeBar web application. It includes microservices responsible for tasks such as user authentication, data management, business logic, and API interactions within the LeBar ecosystem.
+
+<h2 id="LeBar-User-Management-and-Authentication-Microservices">LeBar User Management and Authentication Microservices</h2>
+
+| Microservice Name | Abbreviation | Description | Used |
+|---|---|---|---|
+| **User Authentication** Backend Microservice | `ua` | Manages user authentication and authorization. | `f2b3` `f2b6` `f2b12` `f3b3` `f3b6` `f3b9` `f3b15` `f3b18` `f4b3` `f4b12` `f5b3` `f6b18` `f8b3` `f8b6` `f9b3` `f10b3` `f11b3` |
+| **User Invitation** Backend Microservice | `ui` | Allows users to invite others. | `f2b9` |
+| **User Information** Payload Backend Microservice | `uip` | Stores and manages user information. | `f2b12` |
+| **User SMS Notification** Backend Microservice | `usn` | Sends SMS notifications to users. | `f2b15` `f3b12` `f5b12` `f6b30` `f7b15` `f8b9` `f9b15` `f10b12` `f11b15` |
+| **User Payload Event Log** Backend Microservice | `upel` | Logs user events and actions. | `f3b3` `f3b12` `f3b15` `f3b18` `f4b12` `f5b9` `f8b3` `f8b6` |
+| **User Board Notification** Backend Microservice | `ubn` | Manages notifications on the user profile. | `f8b12` |
+
+<h2 id="LeBar-User-Purchase-and-Transaction">LeBar User Purchase and Transaction</h2>
+
+| Microservice Name | Abbreviation | Description | Used |
+|---|---|---|---|
+| **Purchase User** Backend Microservice | `pu` | Handles user purchases. | `f4b3` `f6b3` `f6b6` `f6b12` `f6b15` `f6b18` `f6b21` `f7b3` `f9b6` |
+| **Add Company User Information** MySQL Backend Microservice | `acuim` | Adds company user information to the MySQL database. | `f4b3` |
+| **Cent to Lebar** Backend Microservice | `ctl` | Converts cents to Lebar. | `f4b6` `f6b3` `f7b3` |
+| **Custom Handle Subscription** Backend Microservice | `chs` | Manages custom subscriptions. | `f4b9` `f5b3` |
+| **Purchase MySQL** Backend Microservice | `pm` | Handles purchase transactions in MySQL. | `f4b9` `f6b24` |
+| **Debit User Handle** MySQL Backend Microservice | `duhm` | Debits user accounts in MySQL. | `f5b6` `f7b6` |
+| **Transaction History** Backend Microservice | `th` | Displays transaction history. | `f5b9` `f6b24` `f7b9` `f9b12` `f10b6` `f11b7` |
+| **Transfer Detail** Backend Microservice | `td` | Provides details about transfers. | `f5b9` `f6b27` `f7b9` `f9b12` `f10b7` `f11b9` |
+| **Cent Account** Backend Microservice | `ca` | Manages cent accounts. | `f5b9` `f6b27` `f9b12` `f10b9` `f11b12` |
+| **Exchange Rate** Backend Microservice | `er` | Handles exchange rates. | `f6b3` `f6b6` `f6b15` `f9b3` `f10b3` |
+| **Purchase Transfer Withdrawal Cent Event Log** Backend Microservice | `ptwcel` | Logs purchase, transfer, and withdrawal events. | `f6b6` `f6b9` `f6b12` `f6b21` `f7b12` `f8b18` `f9b9` `f10b6` `f11b6` |
+| **Transfer User** Backend Microservice | `tu` | Handles user transfers. | `f7b3` `f9b3` `f9b9` |
+| **Transfer MySQL** Backend Microservice | `tm` | Manages transfer transactions in MySQL. | `f7b6` `f9b6` |
+| **Add Moved Credit MySQL** Backend Microservice | `amcm` | Manages the addition of moved credit to the MySQL database. | `f11b6` |
+| **Withdrawal MySQL** Backend Microservice | `wm` | Manages withdrawal transactions in MySQL. | `f10b3` |
+| **Withdrawal User** Backend Microservice | `wu` | Handles user withdrawals. | `f10b6` |
+| **Move User** Backend Microservice | `wu` | Handles user movements (e.g., transfers between accounts). | `f11b3` |
+
+<h2 id="LeBar-Frontend-and-UI-Microservices">LeBar Frontend and UI Microservices</h2>
+
+| Microservice Name | Abbreviation | Description | Used |
+|---|---|---|---|
+| **Site Static Page** Frontend Microservice | `ssp` | Handles static pages of the website. | `f1b3` |
+| **Register Login** Frontend Microservice | `rl` | Handles user registration and login. | `f2b3` |
+| **My Profile** Frontend Microservice | `mp` | Provides a profile page for users. | `f3b18` |
+
+<h2 id="LeBar-Data-and-Analytics">LeBar Data and Analytics</h2>
+
+| Microservice Name | Abbreviation | Description | Used |
+|---|---|---|---|
+| **Banking Information** Backend Microservice | `bi` | Stores and manages bank information. | `f2b12` `f4b6` `f6b3` `f6b9` `f6b21` `f8b15` |
 
 ---
 
