@@ -36,7 +36,7 @@ The naming convention for the microservice application repositories within the S
 
 <h1 id="Microservice-Types">Microservice Types</h1>
 
-For a detailed breakdown of the microservice types and their functions in the Sambar/LeBar/k8or web applications, refer to the comprehensive catalog linked **[here](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/microservice-standard-dir/microservice-type-dir)**.
+## For a detailed breakdown of the microservice types and their functions in the Sambar/LeBar/k8or web applications, refer to the comprehensive catalog linked **[here](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/microservice-standard-dir/microservice-type-dir)**.
 
 ---
 
