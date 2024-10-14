@@ -43,6 +43,9 @@ This repository houses a collection of documents related to microservice naming 
 7. **[response-payload-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/microservice-standard-dir/response-payload-dir)**
    - This directory analyzes the structure and conventions employed within response payloads, focusing on the `metadataOBJ` and `actualDataOBJ` components.
 
+8. **[microservice-type-dir](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/microservice-standard-dir/microservice-type-dir)**
+   - This directory catalogs all the frontend and backend microservices used within the Sambar/Lebar/K8or web applications.
+
 ---
 
 <h2 id="Document-Metadata">Document Metadata</h2>
