@@ -11,7 +11,8 @@ This document provides a comprehensive guide to the structure and conventions us
 5. **[Mini-Break Tracking](#Mini-Break-Tracking)**
 6. **[Additional Notes](#Additional-Notes)**
 7. **[Download Weekly Timesheet Template](#Download-Weekly-Timesheet-Template)**
-8. **[Document Metadata](#Document-Metadata)**
+8. **[How to Update Timesheet Template](#How-to-Update-Timesheet-Template)**
+9. **[Document Metadata](#Document-Metadata)**
 
 <h1 id="Introduction">Introduction</h1>
 
@@ -70,6 +71,50 @@ The timesheet includes a column for `Number of M-Breaks` to track short breaks o
 
 - The weekly timesheet template can be downloaded from the `timesheet-dir/template-dir` GitHub repository directory: **[download template](https://github.com/k8or-development-dgo/fundamental-smr-lbr-k8r-doc-rep-k8d/tree/k8or-dev/v0-0-01-dir/timesheet-dir/template-dir/anna-veretennykova-weekly-timesheet-monday-october-7-2024.xlsx)**. 
 - **Remember to use caution when modifying the template to avoid disrupting the formulas used for calculating working hours.**
+
+<h1 id="How-to-Update-Timesheet-Template">How to Update Timesheet Template</h1>
+
+### Step 1: Download and Rename
+* Download the weekly timesheet template.
+* Locate the downloaded file in your downloads directory.
+* Rename the file using the following format: `[firstname]-[lastname]-weekly-timesheet-monday-[month]-[day]-[year]`.
+    * Example: `anna-veretennykova-weekly-timesheet-monday-october-7-2024`.
+
+### Step 2: Open in OpenOffice
+* Open the renamed timesheet file using OpenOffice on your remote k8or Windows-WS.
+
+### Step 3: Update Personal Information
+* In the top left corner, fill in your:
+    * **Name:** Your first and last name.
+    * **City:** Your current city and country.
+
+### Step 4: Update Week Starting Date
+* Select the correct starting date for the week from the provided calendar.
+* This will automatically update the `Date` column with the corresponding dates for that week.
+
+### Step 5: Calculate Time Zone Difference
+* Determine the difference between your local time zone and UTC time.
+* Update the `Time Zone Difference` field accordingly.
+    * Example: `All Entries UTC Military Time. Local Time PLUS 3 hour UTC.`
+
+### Step 6: Update Planned Timing Table
+* **Date:** The date of the workday. This column is automatically updated once you have selected `Week Starting Date`.
+* **Time In (First):** The time you plan to start your workday.
+* **Time Out (First):** The time you plan to start your lunch break.
+* **Break 1:** The duration of your lunch break (e.g., `60 minutes`).
+* **Time In (Second):** The time you plan to return from your lunch break.
+* **Time Out (Second):** The time you plan to log off for the day.
+* **Type:** `R` for regular workdays or `A` for absences.
+
+**Note:** Update these fields for each workday in the week.
+
+### Step 7: Update Actual Timing Table
+* Fill in the actual timing table after completing your workdays.
+* Remove any unnecessary time entries that do not represent your actual work hours.
+
+### Additional Tips
+* Ensure that all times are entered in the correct format (e.g., 24-hour format).
+* Double-check your entries for accuracy before submitting the timesheet.
 
 ---
 
