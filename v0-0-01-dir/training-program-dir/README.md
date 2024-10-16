@@ -8,7 +8,7 @@ This comprehensive training program is designed to equip new team members with t
 2. **[Stage 2: Core Concepts](#Stage-2-Core-Concepts)**
 3. **[Stage 3: Version Control and Containerization](#Stage-3-Version-Control-and-Containerization)**
 4. **[Stage 4: Application Architecture](#Stage-4-Application-Architecture)**
-5. **[Stage-5-Documentation-and-Resource-Management](#Stage-5-Documentation-and-Resource-Management)**
+5. **[Stage 5: Documentation and Resource Management](#Stage-5-Documentation-and-Resource-Management)**
 6. **[Stage 6: Deployment and Testing](#Stage-6-Deployment-and-Testing)**
 7. **[Stage 7: Practical Application](#Stage-7-Practical-Application)**
 8. **[Document Metadata](#Document-Metadata)**
