@@ -10,9 +10,9 @@ This document outlines the rules and expectations for team members working withi
 
 <h1 id="General-Rules">General Rules</h1>
 
-* **Punctuality:** Team members must be online and logged into the `in-n-out` **Slack** channel five minutes before their scheduled start time, for example, 5 AM UTC.
-* **Remote Access:** All work must be conducted from the provided remote Windows workspace. Logging into **Slack** or other applications outside of the remote workspace is strictly prohibited.
+* **Punctuality:** Team members must be online and logged into the remote Windows workspace five minutes before their scheduled start time. Team members must be logged into the `in-n-out` Slack channel no later than the scheduled start time. For example, if the workday starts at 5 AM UTC, team members cannot log in at 5:01 AM UTC.
 * **Absence Policy:** Failure to log in within one minute of the scheduled start time will result in the remote Windows workspace being automatically shut down by an AWS EventBridge rule and the team member marked as absent for the day.
+* **Remote Access:** All work must be conducted from the provided remote Windows workspace. Logging into **Slack** or **other applications** outside of the remote workspace is **strictly prohibited**, with the **exception** of the **Zoom application**.
 
 <h1 id="Work-Hours-and-Breaks">Work Hours and Breaks</h1>
 
