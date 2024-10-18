@@ -24,7 +24,7 @@ This document outlines the guidelines and instructions for the k8or intern exams
     * **Success:** A successful outcome will allow you to proceed to the next stage of the training program and begin preparing for the subsequent exam.
     * **Unsuccessful:** If you are unsuccessful, you will remain at the current stage and be required to revisit and reinforce the necessary topics.
 
-* **Training Duration:** The average training program is designed to last one month, 5 weeks. However, individual progress may vary, with some candidates completing the program sooner and others requiring slightly more time.
+* **Training Duration:** The average training program is designed to one month, 5 weeks. However, individual progress may vary, with some candidates completing the program sooner and others requiring slightly more time.
 
 <h1 id="Exam-Procedure">Exam Procedure</h1>
 
