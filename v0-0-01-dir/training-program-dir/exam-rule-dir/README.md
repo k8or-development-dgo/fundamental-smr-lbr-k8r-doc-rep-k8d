@@ -40,6 +40,7 @@ This document outlines the guidelines and instructions for the k8or intern exams
    * **No Changes:** Once an answer is sent, **it cannot be changed or deleted**. All answers will be visible in the channel's hidden history.
 6. **Exam Completion:** When you've finished the exam, send the message `My exam is completed` to the `k8or-intern-exam` Slack channel.
 7. **End Time and Ticket Status:** Update your exam ticket with the end time and mark it as `done.`
+8. **Stop Tracking:** End your Toggl timer to accurately record your exam time.
 
 ---
 
